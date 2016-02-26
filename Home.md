@@ -18,7 +18,7 @@ The final project is worth 130 points, which will be awarded as follows:
 * Core Team Evaluations - 5 pts
 * [Reach](Grading#reach) - 50 pts
 * Reach Team Evaluations - 5 pts
-* Showcase - 10 pts
+* [Showcase](Grading#showcase) - 10 pts
 
 See the [grading](Grading) page for further details.
 
