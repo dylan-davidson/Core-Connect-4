@@ -8,5 +8,6 @@
 
 4. [[Reach|Reach]]
 
-6. [[ Grading|Grading]]
-5. [[ Help and Common Questions|Help and FAQs]]
+5. [[ Grading|Grading]]
+
+6. [[ Help and Common Questions|Help and FAQs]]
