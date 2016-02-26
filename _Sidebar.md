@@ -1,6 +1,6 @@
 ## [[Project Overview|Home]]
 
-1. [[ Proposal|Grading#project-proposal]]
+1. [[ Proposal|Grading#proposal]]
 
 2. [[Getting Started|Getting Started]]
 
