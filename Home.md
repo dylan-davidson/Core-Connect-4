@@ -1,5 +1,5 @@
 ## Project Overview
-EECS 183. Fall 2015.
+EECS 183. Winter 2016.
 
 **Overview.** Create a working game of Connect 4! This two-player game involves the players alternately dropping a colored token (red and black) into a column of a 6x7 board. The first player to have 4 tokens of their respective color consecutively in a row, column, or diagonal wins!
 
@@ -13,7 +13,7 @@ This [demo](https://www.youtube.com/watch?v=1hxmycnrDzo) shows a version of the 
 ### Grading
 
 The final project is worth 130 points, which will be awarded as follows:
-* [Proposal](Grading#project-proposal) - 10 pts
+* [Proposal](Grading#proposal) - 10 pts
 * [Core](Grading#core) - 50 pts
 * Core Team Evaluations - 5 pts
 * [Reach](Grading#reach) - 50 pts
