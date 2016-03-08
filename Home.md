@@ -24,5 +24,9 @@ See the [grading](Grading) page for further details.
 
 ### Staff Members
 The following staff members support the Connect 4 Project:
-* Lisa Dion
+* Erin Donahue
 * James Cheng
+* Joel Battsek
+* Kevin Lee
+* Leah Bar-On Simmons
+* Lisa Dion
