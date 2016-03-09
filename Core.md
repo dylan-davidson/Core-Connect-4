@@ -35,7 +35,8 @@ Note: Within the array, the rows are numbered in ascending order from bottom to 
 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
-**Specifications** 
+**Specifications**
+
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
 <pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
@@ -75,6 +76,7 @@ a FEN string holding all board information
 For details of FEN strings, see a later section on FEN string.
 
 **Example**:
+
 <pre><code>Enter L to load a game, or P to play:</code></pre> <u>L</u>
 <pre><code>Enter the filename:</code></pre> <u>game1.txt</u>
 <pre><code>
@@ -102,7 +104,9 @@ Note: This will be a menu-driven program, similar to Project 2. The user will be
 Note: Player 1 always goes first. As players make their moves, the squares are occupied one by one, by the 'x' and 'o' characters of the players. Player 1 is always 'x' and Player 2 is always 'o'.
 
 **Play**
+
 **If numeric is entered**
+
 The players may choose any open position on the game board. It will place an 'x' for Player 1 and an 'o' for Player 2 at the location entered.
 <pre><code>
   +---+---+---+---+---+---+---+
@@ -143,14 +147,17 @@ Enter: the column to move, q to quit, s to save
 Bane enter your move:</code></pre>
 
 **Illegal Moves**
+
 A position off the game board or a column that is full will result in an error message and the player must re-enter the move. The error message is:
 <pre><code>ILLEGAL MOVE: Try again</code></pre>
 
 **Quit**
+
 If 'q' is entered, play will stop at that point. The program will print the following:
 <pre><code>Thanks for playing!</code></pre>
 
 **Save the Board**
+
 if 's' is entered you will save the board to a file. The format of this save is FEN strings. Basically you want to printBoard to the output stream chosen -- file or monitor.
 <pre><code>Enter: the column to move, q to quit, s to save
 Batman enter your move:</code></pre> <u>s</u>
@@ -159,6 +166,7 @@ Batman enter your move:</code></pre> <u>s</u>
 Following the save, the program will print the board again and ask for the move of the **same player**.
 
 **Game Over with a Win or Draw**
+
 Each game ends when:
 # One of the players gets 4 in a row horizontally, vertically, or diagonally
 #;or
@@ -191,9 +199,11 @@ col 1   2   3   4   5   6   7
 The final board will also be printed in the case of a Draw.
 
 **Enums**
+
 Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <pre><code>bool</code></pre> has possible values <pre><code>true</code></pre> and <pre><code>false</code></pre>, in this project we define a type <pre><code>Result</code></pre> that has possible values <pre><code>IllegalMove</code></pre>, <codeDraw</code></pre>, <pre><code>Win</code></pre>, and <pre><code>NoResult</code></pre>. We also define an enum <pre><code>PieceType</code></pre> that has possible values <pre><code>Empty</code></pre>, <pre><code>Player1</code></pre>, and <pre><code>Player2</code></pre>.
 
 **FEN Strings**
+
 The position notation used to describe the Connect 4 Board is based on the FEN notation used in chess. Forsyth-Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.
 
 The format first lists piece placement. Each row is described from row 1 to row 6 (bottom row to top row); each column within a row is described from column 1 to column 7 (left column to right column). Note: these numbers are according to the display and NOT by indices of the array. 
@@ -202,6 +212,7 @@ The format first lists piece placement. Each row is described from row 1 to row 
 * A single unoccupied location is denoted as '1'. Each row will be separated by a single '/'.
 
 **Examples**
+
 FEN string for an empty board: <pre><code>7/7/7/7/7/7 x</code></pre>
 
 <pre><code>
@@ -241,9 +252,11 @@ col 1   2   3   4   5   6   7
 FEN string for above board: <pre><code>2x1oo1/2x4/7/7/7/7/7 x</code></pre>
 
 **Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const**
+
 Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location [row][col] is NOT counted.
 
 **Examples**
+
 Given the board:
 <pre><code>
   +---+---+---+---+---+---+---+
