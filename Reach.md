@@ -2,6 +2,8 @@ The following is a list of pre-approved reach features. This list is non-exhaust
 
 Each feature has a difficulty listed in points, on a scale of 1 to 5. To receive full credit for the reach portion of the project, you must successfully complete features totaling at least 3 reach points.
 
-### Graphics Using OpenGL (3-5 points)
+### Graphics Using OpenGL (3 points)
 
-### Artificial Intelligence to Play as Computer (3-4 points)
+#### Recommended Reading
+
+### Artificial Intelligence to Play Against Computer (3 points)
