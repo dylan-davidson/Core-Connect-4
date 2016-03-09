@@ -29,20 +29,14 @@ The game board cells will be labeled as follows:
 col 1   2   3   4   5   6   7  
 </code></pre>
 
-The object of the game is to connect four tokens vertically, horizontally, or diagonally. If the board is filled and no one has aligned four tokens then the game is a draw (i.e. no one wins after 42 moves).
-
-Note: Within the array, the rows are numbered in ascending order from bottom to top, i.e., the lowest numbered row is on the bottom and the highest numbered row is on the top. Internally, this puts data[0][0] at the lower-left hand corner.
-
-Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
-
 === Specifications ===  
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
-<pre><code>Enter L to load a game, or P to play:</code></pre> <u>p</u>
+<pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
 
 **Play**: If "play" is chosen, the game will ask for the names of two players.  
-<pre><code>Player 1, enter your name:</code></pre> <u>Batman</u>  
-<pre><code>Player 2, enter your name:</code></pre> <u>Bane</u>  
+<pre><code>Player 1, enter your name:</code> <u>Batman</u></pre>  
+<pre><code>Player 2, enter your name:</code> <u>Bane</u></pre>  
 
 It will then print the initial board and ask for a move from the first player.
 <pre><code>
