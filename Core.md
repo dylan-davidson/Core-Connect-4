@@ -200,7 +200,7 @@ The final board will also be printed in the case of a Draw.
 
 **Enums**
 
-Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <codeDraw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
+Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <code>Draw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
 
 **FEN Strings**
 
@@ -213,7 +213,7 @@ The format first lists piece placement. Each row is described from row 1 to row 
 
 **Examples**
 
-FEN string for an empty board: <pre><code>7/7/7/7/7/7 x</code></pre>
+FEN string for an empty board: <code>7/7/7/7/7/7 x</code>
 
 <pre><code>
   +---+---+---+---+---+---+---+
@@ -231,9 +231,9 @@ FEN string for an empty board: <pre><code>7/7/7/7/7/7 x</code></pre>
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
 </code></pre>
-FEN string for above board: <pre><code>2x4/7/7/7/7/7/7 o</code>
+FEN string for above board: <code>2x4/7/7/7/7/7/7 o</code>
 
-<code>
+<pre><code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -249,7 +249,7 @@ FEN string for above board: <pre><code>2x4/7/7/7/7/7/7 o</code>
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
 </code></pre>
-FEN string for above board: <pre><code>2x1oo1/2x4/7/7/7/7/7 x</code></pre>
+FEN string for above board: <code>2x1oo1/2x4/7/7/7/7/7 x</code>
 
 **Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const**
 
