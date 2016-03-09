@@ -12,8 +12,7 @@ The files included in this project are listed below.
 Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
 
 The game board cells will be labeled as follows:  
-<pre>
-<code>
+<pre><code>
   +---+---+---+---+---+---+---+  
   |   |   |   |   |   |   |   |  
   +---+---+---+---+---+---+---+  
@@ -28,8 +27,7 @@ The game board cells will be labeled as follows:
   |   |   |   |   |   |   |   |  
   +---+---+---+---+---+---+---+  
 col 1   2   3   4   5   6   7  
-</code>
-</pre>
+</code></pre>
 
 The object of the game is to connect four tokens vertically, horizontally, or diagonally. If the board is filled and no one has aligned four tokens then the game is a draw (i.e. no one wins after 42 moves).
 
