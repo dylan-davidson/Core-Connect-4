@@ -77,9 +77,9 @@ For details of FEN strings, see a later section on FEN string.
 
 **Example**:
 
-<pre><code>Enter L to load a game, or P to play:</code></pre> <u>L</u>
-<pre><code>Enter the filename:</code></pre> <u>game1.txt</u>
-<pre><code>
+<pre><code>Enter L to load a game, or P to play:</code> <u>L</u>
+<code>Enter the filename:</code> <u>game1.txt</u>
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -125,9 +125,9 @@ The players may choose any open position on the game board. It will place an 'x'
 col 1   2   3   4   5   6   7
 
 Enter: the column to move, q to quit, s to save
-Batman enter your move:</code></pre> <u>3</u>
+Batman enter your move:</code> <u>3</u>
 
-<pre><code>
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -160,8 +160,8 @@ If 'q' is entered, play will stop at that point. The program will print the foll
 
 if 's' is entered you will save the board to a file. The format of this save is FEN strings. Basically you want to printBoard to the output stream chosen -- file or monitor.
 <pre><code>Enter: the column to move, q to quit, s to save
-Batman enter your move:</code></pre> <u>s</u>
-<pre><code>Enter the filename:</code></pre> <u>game1.txt</u>
+Batman enter your move:</code> <u>s</u>
+<code>Enter the filename:</code> <u>game1.txt</u></pre>
 
 Following the save, the program will print the board again and ask for the move of the **same player**.
 
@@ -231,9 +231,9 @@ FEN string for an empty board: <pre><code>7/7/7/7/7/7 x</code></pre>
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
 </code></pre>
-FEN string for above board: <pre><code>2x4/7/7/7/7/7/7 o</code></pre>
+FEN string for above board: <pre><code>2x4/7/7/7/7/7/7 o</code>
 
-<pre><code>
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
