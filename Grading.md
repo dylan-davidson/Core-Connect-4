@@ -34,6 +34,26 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Reach
 
+We will only grade one of the following! If you implement both you must specify which one to grade for points. Both graphics and AI add up to 60, but you only need 50 points to get full credit for the reach.
+
+### Graphics
+
+| Category | Description | Points |
+|----------------|---------------------------------------|----------|
+| Basic Graphics | Core displayed with graphics, but no added functionality. | 25 pts |
+| Medium Functionality | | 15pts |
+| Hard Functionality | | 20pts |
+| | | 50pts |
+
+### Artificial Intelligence
+
+| Category | Description | Points |
+|----------------|---------------------------------------|----------|
+| Easy | Your implementation beats our [easy](../Reach#Easy_AI) AI. | 25 pts |
+| Medium | Your implementation beats our medium AI. | 20 pts |
+| Hard | Your implementation beats our hard AI. | 15 pts |
+| | | 50 pts |
+
 ## Showcase
 
 At the showcase you will be demo-ing your project. We expect your demos to be about 3 minutes long, and walk us through the major features of your project. All team members should be prepared to answer technical questions about how different features were implemented. We will be grading the showcase based on attendance (you get points just for showing up!), the quality of your presentation and your technical explanations. We encourage you to be creative and enthusiastic!
