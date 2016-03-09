@@ -169,7 +169,6 @@ Following the save, the program will print the board again and ask for the move 
 
 Each game ends when:
 * One of the players gets 4 in a row horizontally, vertically, or diagonally
-*;or
 * All tokens have been played and neither player wins, i.e. Draw
 
 Output statements will be:
@@ -195,12 +194,13 @@ Congratulations Bane! You won!
   | x | o | x | x | o | o | x |
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
+</code></pre>
 
 The final board will also be printed in the case of a Draw.
 
 **Enums**
 
-Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <pre><code>bool</code></pre> has possible values <pre><code>true</code></pre> and <pre><code>false</code></pre>, in this project we define a type <pre><code>Result</code></pre> that has possible values <pre><code>IllegalMove</code></pre>, <codeDraw</code></pre>, <pre><code>Win</code></pre>, and <pre><code>NoResult</code></pre>. We also define an enum <pre><code>PieceType</code></pre> that has possible values <pre><code>Empty</code></pre>, <pre><code>Player1</code></pre>, and <pre><code>Player2</code></pre>.
+Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <codeDraw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
 
 **FEN Strings**
 
