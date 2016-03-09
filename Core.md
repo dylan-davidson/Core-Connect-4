@@ -8,7 +8,7 @@ The files included in this project are listed below.
 * **graphics.h**: Declarations of functions needed for graphics. Only used for optional graphics Reach.
 * **graphics.cpp**: Definitions of functions needed for graphics functionality. Only used for optional graphics Reach.
 
-**How to Play Connect 4**  
+## How to Play Connect 4  
 Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
 
 The game board cells will be labeled as follows:  
@@ -35,8 +35,7 @@ Note: Within the array, the rows are numbered in ascending order from bottom to 
 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
-**Specifications**
-
+## Specifications
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
 <pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
@@ -103,7 +102,7 @@ Note: This will be a menu-driven program, similar to Project 2. The user will be
 
 Note: Player 1 always goes first. As players make their moves, the squares are occupied one by one, by the 'x' and 'o' characters of the players. Player 1 is always 'x' and Player 2 is always 'o'.
 
-**Play**
+## Gameplay
 
 **If numeric is entered**
 
@@ -198,12 +197,13 @@ col 1   2   3   4   5   6   7
 
 The final board will also be printed in the case of a Draw.
 
-**Enums**
-
+## Enums
 Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <code>Draw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
 
-**FEN Strings**
+## const
+When <code>const</code> is written at the end of a member function header line, that means the function cannot modify the values of the private member variables of the class.
 
+## FEN Strings
 The position notation used to describe the Connect 4 Board is based on the FEN notation used in chess. Forsyth-Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.
 
 The format first lists piece placement. Each row is described from row 1 to row 6 (bottom row to top row); each column within a row is described from column 1 to column 7 (left column to right column). Note: these numbers are according to the display and NOT by indices of the array. 
@@ -251,7 +251,7 @@ col 1   2   3   4   5   6   7
 </code></pre>
 FEN string for above board: <code>2x1oo1/2x4/7/7/7/7/7 x</code>
 
-**Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const**
+## Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const
 
 Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location [row][col] is NOT counted.
 
