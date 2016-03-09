@@ -23,6 +23,10 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Core
 
+| Category | Description | Points |
+|----------------|---------------------------------------|----------|
+| Compilation | Your implementation successfully compiles. | 5 pts |
+
 ## Reach
 
 ## Showcase
