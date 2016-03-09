@@ -38,11 +38,13 @@ We will only grade one of the following! If you implement both you must specify 
 
 ### Graphics
 
+If you want to implement ideas that are not given in the table( highly encouraged! ), contact us at 183connect4@umich.edu so we can let you know if it would fit in the Medium Functionality or the Hard Functionality.
+
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
 | Basic Graphics | Core displayed with graphics, but no added functionality. | 25 pts |
-| Medium Functionality | | 15pts |
-| Hard Functionality | | 20pts |
+| Medium Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Having the player's token follow the mouse<br/>• Making a move using a mouse click<br/>• Resizing or centering the board when the window is resized | 15pts |
+| Hard Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Animating the token dropping down a column<br/>• Highlighting the winning tokens<br/>• Creating a menu or splash screen for the game | 20pts |
 | | | 50pts |
 
 ### Artificial Intelligence
