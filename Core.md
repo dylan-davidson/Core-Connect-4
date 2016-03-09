@@ -42,8 +42,8 @@ The game begins by asking if you wish to load a game or to play a game. Note: th
 <pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
 
 **Play**: If "play" is chosen, the game will ask for the names of two players.  
-<pre><code>Player 1, enter your name:</code> <u>Batman</u></pre>  
-<pre><code>Player 2, enter your name:</code> <u>Bane</u></pre>  
+<pre><code>Player 1, enter your name:</code> <u>Batman</u>  
+<code>Player 2, enter your name:</code> <u>Bane</u></pre>  
 
 It will then print the initial board and ask for a move from the first player.
 <pre><code>
@@ -168,9 +168,9 @@ Following the save, the program will print the board again and ask for the move 
 **Game Over with a Win or Draw**
 
 Each game ends when:
-# One of the players gets 4 in a row horizontally, vertically, or diagonally
-#;or
-# All tokens have been played and neither player wins, i.e. Draw
+* One of the players gets 4 in a row horizontally, vertically, or diagonally
+*;or
+* All tokens have been played and neither player wins, i.e. Draw
 
 Output statements will be:
 <pre><code>Congratulations <name of winner>! You won!
