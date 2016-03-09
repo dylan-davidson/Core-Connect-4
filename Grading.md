@@ -26,3 +26,9 @@ Remember that the team you submit your proposal with will be your finalized team
 ## Reach
 
 ## Showcase
+
+At the showcase you will be demo-ing your project. We expect your demos to be about 3 minutes long, and walk us through the major features of your project. All team members should be prepared to answer technical questions about how different features were implemented. We will be grading the showcase based on attendance (you get points just for showing up!), the quality of your presentation and your technical explanations. We encourage you to be creative and enthusiastic!
+ 
+Try to tell the story of why someone should play your Connect 4 game.  After seeing your demo, we should get a good idea of what your program can do and how it is unique. You should prepare and practice your demo with your teammates.
+ 
+We recommend doing your demo off a laptop, no poster required. But if you wish to do something else, that should be fine, but please let us know in advance. Table space is limited. Make sure you have at least 2 fully charged laptops ready to go for the presentation. You will not have access to electrical power at your table.
