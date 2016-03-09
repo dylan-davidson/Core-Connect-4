@@ -29,7 +29,13 @@ The game board cells will be labeled as follows:
 col 1   2   3   4   5   6   7  
 </code></pre>
 
-=== Specifications ===  
+The object of the game is to connect four tokens vertically, horizontally, or diagonally. If the board is filled and no one has aligned four tokens then the game is a draw (i.e. no one wins after 42 moves).
+
+Note: Within the array, the rows are numbered in ascending order from bottom to top, i.e., the lowest numbered row is on the bottom and the highest numbered row is on the top. Internally, this puts data[0][0] at the lower-left hand corner.
+
+Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
+
+**Specifications** 
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
 <pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
@@ -95,7 +101,7 @@ Note: This will be a menu-driven program, similar to Project 2. The user will be
 
 Note: Player 1 always goes first. As players make their moves, the squares are occupied one by one, by the 'x' and 'o' characters of the players. Player 1 is always 'x' and Player 2 is always 'o'.
 
-===Play===
+**Play**
 **If numeric is entered**
 The players may choose any open position on the game board. It will place an 'x' for Player 1 and an 'o' for Player 2 at the location entered.
 <pre><code>
@@ -184,10 +190,10 @@ col 1   2   3   4   5   6   7
 
 The final board will also be printed in the case of a Draw.
 
-===Enums===
+**Enums**
 Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <pre><code>bool</code></pre> has possible values <pre><code>true</code></pre> and <pre><code>false</code></pre>, in this project we define a type <pre><code>Result</code></pre> that has possible values <pre><code>IllegalMove</code></pre>, <codeDraw</code></pre>, <pre><code>Win</code></pre>, and <pre><code>NoResult</code></pre>. We also define an enum <pre><code>PieceType</code></pre> that has possible values <pre><code>Empty</code></pre>, <pre><code>Player1</code></pre>, and <pre><code>Player2</code></pre>.
 
-===FEN Strings===
+**FEN Strings**
 The position notation used to describe the Connect 4 Board is based on the FEN notation used in chess. Forsyth-Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.
 
 The format first lists piece placement. Each row is described from row 1 to row 6 (bottom row to top row); each column within a row is described from column 1 to column 7 (left column to right column). Note: these numbers are according to the display and NOT by indices of the array. 
@@ -234,7 +240,7 @@ col 1   2   3   4   5   6   7
 </code></pre>
 FEN string for above board: <pre><code>2x1oo1/2x4/7/7/7/7/7 x</code></pre>
 
-===Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const===
+**Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const**
 Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location [row][col] is NOT counted.
 
 **Examples**
