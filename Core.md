@@ -35,7 +35,7 @@ Note: Within the array, the rows are numbered in ascending order from bottom to 
 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
-===Specifications===  
+=== Specifications ===  
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
 <pre><code>Enter L to load a game, or P to play:</code></pre> <u>p</u>
