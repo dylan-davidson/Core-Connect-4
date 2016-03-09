@@ -31,7 +31,7 @@ col 1   2   3   4   5   6   7
 
 The object of the game is to connect four tokens vertically, horizontally, or diagonally. If the board is filled and no one has aligned four tokens then the game is a draw (i.e. no one wins after 42 moves).
 
-Note: Within the array, the rows are numbered in ascending order from bottom to top, i.e., the lowest numbered row is on the bottom and the highest numbered row is on the top. Internally, this puts data![0]![0] at the lower-left hand corner.
+Note: Within the array, the rows are numbered in ascending order from bottom to top, i.e., the lowest numbered row is on the bottom and the highest numbered row is on the top. Internally, this puts data[0][0] at the lower-left hand corner.
 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
@@ -241,7 +241,7 @@ col 1   2   3   4   5   6   7
 FEN string for above board: <pre><code>2x1oo1/2x4/7/7/7/7/7 x</code></pre>
 
 ===Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const===
-Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location ![row]![col] is NOT counted.
+Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location [row][col] is NOT counted.
 
 **Examples**
 Given the board:
@@ -263,11 +263,11 @@ col 1   2   3   4   5   6   7
 </code></pre>
 If you write:
 <pre><code>int count = piecesInDirection(0, 1, 1, 0);</code></pre>
-The function will start at row 0, column 1 (where the leftmost 'x' is located) and move up one row at a time (dRow = 1 and dCol = 0) searching for matching tokens. Since the location at ![1]![1] is unoccupied, the function returns 0.
+The function will start at row 0, column 1 (where the leftmost 'x' is located) and move up one row at a time (dRow = 1 and dCol = 0) searching for matching tokens. Since the location at [1][1] is unoccupied, the function returns 0.
 
 If you write:
 <pre><code>int count = piecesInDirection(0, 1, 0, 1);</code></pre>
-The function will start at row 0, column 1 (where the leftmost 'x' is located) and move to the right one column at a time (dRow = 0 and dCol = 1) searching for matching tokens. Since the location at ![0]![2] and ![0]![3] match the 'x' and ![0]![4] is unoccupied, the function returns 2.
+The function will start at row 0, column 1 (where the leftmost 'x' is located) and move to the right one column at a time (dRow = 0 and dCol = 1) searching for matching tokens. Since the location at [0][2] and [0][3] match the 'x' and [0][4] is unoccupied, the function returns 2.
 
 If you write:
 <pre><code>int count = piecesInDirection(0, 0, 1, 0);</code></pre>
