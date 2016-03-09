@@ -8,26 +8,26 @@ The files included in this project are listed below.
 * **graphics.h**: Declarations of functions needed for graphics. Only used for optional graphics Reach.
 * **graphics.cpp**: Definitions of functions needed for graphics functionality. Only used for optional graphics Reach.
 
-**How to Play Connect 4**
+**How to Play Connect 4**  
 Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
 
-The game board cells will be labeled as follows:
-`
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-col 1   2   3   4   5   6   7
-`
+The game board cells will be labeled as follows:  
+<code>
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+col 1   2   3   4   5   6   7  
+</code>
 
 The object of the game is to connect four tokens vertically, horizontally, or diagonally. If the board is filled and no one has aligned four tokens then the game is a draw (i.e. no one wins after 42 moves).
 
@@ -35,17 +35,17 @@ Note: Within the array, the rows are numbered in ascending order from bottom to 
 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
-===Specifications===
+===Specifications===  
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
-`Enter L to load a game, or P to play:` <u>p</u>
+<code>Enter L to load a game, or P to play:</code> <u>p</u>
 
-**Play**: If "play" is chosen, the game will ask for the names of two players.
-`Player 1, enter your name:` <u>Batman</u>
-`Player 2, enter your name:` <u>Bane</u>
+**Play**: If "play" is chosen, the game will ask for the names of two players.  
+<code>Player 1, enter your name:</code> <u>Batman</u>  
+<code>Player 2, enter your name:</code> <u>Bane</u>  
 
 It will then print the initial board and ask for a move from the first player.
-`
+<code>
   +---+---+---+---+---+---+---+  
   |   |   |   |   |   |   |   |  
   +---+---+---+---+---+---+---+  
@@ -62,8 +62,8 @@ It will then print the initial board and ask for a move from the first player.
 col 1   2   3   4   5   6   7  
 
 Enter: the column to move, q to quit, s to save  
-Batman enter your move:
-`
+Batman enter your move:  
+</code>
 
 See the next section on rules of play.
 
@@ -75,9 +75,9 @@ a FEN string holding all board information
 For details of FEN strings, see a later section on FEN string.
 
 **Example**:
-`Enter L to load a game, or P to play:` <u>L</u>
-`Enter the filename:` <u>game1.txt</u>
-`
+<code>Enter L to load a game, or P to play:</code> <u>L</u>
+<code>Enter the filename:</code> <u>game1.txt</u>
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -95,7 +95,7 @@ col 1   2   3   4   5   6   7
 
 Enter: the column to move, q to quit, s to save
 Batman enter your move:
-`
+</code>
 
 Note: This will be a menu-driven program, similar to Project 2. The user will be given a menu with choices to choose from before every move.
 
@@ -104,7 +104,7 @@ Note: Player 1 always goes first. As players make their moves, the squares are o
 ===Play===
 **If numeric is entered**
 The players may choose any open position on the game board. It will place an 'x' for Player 1 and an 'o' for Player 2 at the location entered.
-`
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -121,9 +121,9 @@ The players may choose any open position on the game board. It will place an 'x'
 col 1   2   3   4   5   6   7
 
 Enter: the column to move, q to quit, s to save
-Batman enter your move:` <u>3</u>
+Batman enter your move:</code> <u>3</u>
 
-`
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -140,21 +140,21 @@ Batman enter your move:` <u>3</u>
 col 1   2   3   4   5   6   7
 
 Enter: the column to move, q to quit, s to save
-Bane enter your move:`
+Bane enter your move:</code>
 
 **Illegal Moves**
 A position off the game board or a column that is full will result in an error message and the player must re-enter the move. The error message is:
-`ILLEGAL MOVE: Try again`
+<code>ILLEGAL MOVE: Try again</code>
 
 **Quit**
 If 'q' is entered, play will stop at that point. The program will print the following:
-`Thanks for playing!`
+<code>Thanks for playing!</code>
 
 **Save the Board**
 if 's' is entered you will save the board to a file. The format of this save is FEN strings. Basically you want to printBoard to the output stream chosen -- file or monitor.
-`Enter: the column to move, q to quit, s to save
-Batman enter your move:` <u>s</u>
-`Enter the filename:` <u>game1.txt</u>
+<code>Enter: the column to move, q to quit, s to save
+Batman enter your move:</code> <u>s</u>
+<code>Enter the filename:</code> <u>game1.txt</u>
 
 Following the save, the program will print the board again and ask for the move of the **same player**.
 
@@ -165,13 +165,13 @@ Each game ends when:
 # All tokens have been played and neither player wins, i.e. Draw
 
 Output statements will be:
-`Congratulations <name of winner>! You won!
-Draw!`
+<code>Congratulations <name of winner>! You won!
+Draw!</code>
 
 It will also print the final board.
 
 **Example of a Win**
-`
+<code>
 Congratulations Bane! You won!
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
@@ -191,7 +191,7 @@ col 1   2   3   4   5   6   7
 The final board will also be printed in the case of a Draw.
 
 ===Enums===
-Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type `bool` has possible values `true` and `false`, in this project we define a type `Result` that has possible values `IllegalMove`, <codeDraw`, `Win`, and `NoResult`. We also define an enum `PieceType` that has possible values `Empty`, `Player1`, and `Player2`.
+Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <codeDraw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
 
 ===FEN Strings===
 The position notation used to describe the Connect 4 Board is based on the FEN notation used in chess. Forsyth-Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.
@@ -202,9 +202,9 @@ The format first lists piece placement. Each row is described from row 1 to row 
 * A single unoccupied location is denoted as '1'. Each row will be separated by a single '/'.
 
 **Examples**
-FEN string for an empty board: `7/7/7/7/7/7 x`
+FEN string for an empty board: <code>7/7/7/7/7/7 x</code>
 
-`
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -219,10 +219,10 @@ FEN string for an empty board: `7/7/7/7/7/7 x`
   |   |   | x |   |   |   |   |
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
-`
-FEN string for above board: `2x4/7/7/7/7/7/7 o`
+</code>
+FEN string for above board: <code>2x4/7/7/7/7/7/7 o</code>
 
-`
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -237,15 +237,15 @@ FEN string for above board: `2x4/7/7/7/7/7/7 o`
   |   |   | x |   | o | o |   |
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
-`
-FEN string for above board: `2x1oo1/2x4/7/7/7/7/7 x`
+</code>
+FEN string for above board: <code>2x1oo1/2x4/7/7/7/7/7 x</code>
 
 ===Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const===
 Note: piecesInDirection will return how many consecutive matching tokens there are, starting in position row and col and moving in the direction defined by the change in row (dRow) and the change in column (dCol). The token at location ![row]![col] is NOT counted.
 
 **Examples**
 Given the board:
-`
+<code>
   +---+---+---+---+---+---+---+
   |   |   |   |   |   |   |   |
   +---+---+---+---+---+---+---+
@@ -260,23 +260,23 @@ Given the board:
   | o | x | x | x |   |   |   |
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
-`
+</code>
 If you write:
-`int count = piecesInDirection(0, 1, 1, 0);`
+<code>int count = piecesInDirection(0, 1, 1, 0);</code>
 The function will start at row 0, column 1 (where the leftmost 'x' is located) and move up one row at a time (dRow = 1 and dCol = 0) searching for matching tokens. Since the location at ![1]![1] is unoccupied, the function returns 0.
 
 If you write:
-`int count = piecesInDirection(0, 1, 0, 1);`
+<code>int count = piecesInDirection(0, 1, 0, 1);</code>
 The function will start at row 0, column 1 (where the leftmost 'x' is located) and move to the right one column at a time (dRow = 0 and dCol = 1) searching for matching tokens. Since the location at ![0]![2] and ![0]![3] match the 'x' and ![0]![4] is unoccupied, the function returns 2.
 
 If you write:
-`int count = piecesInDirection(0, 0, 1, 0);`
+<code>int count = piecesInDirection(0, 0, 1, 0);</code>
 The function will start at row 0, column 0 (where the lowest 'o' is located) and move up one row at a time (dRow = 1 and dCol = 0) searching for matching tokens. The function returns 2.
 
 If you write:
-`int count = piecesInDirection(0, 2, 0, 1);`
+<code>int count = piecesInDirection(0, 2, 0, 1);</code>
 The function will start at row 0, column 2 (where the middle 'x' is located) and move to the right one column at a time (dRow = 0 and dCol = 1) searching for matching tokens. The function returns 1.
 
 If you write:
-`int count = piecesInDirection(0, 2, 0, -1);`
+<code>int count = piecesInDirection(0, 2, 0, -1);</code>
 The function will start at row 0, column 2 (where the middle 'x' is located) and move to the left one column at a time (dRow = 0 and dCol = -1) searching for matching tokens. The function returns 1.
