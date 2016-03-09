@@ -9,3 +9,7 @@ Each feature has a difficulty listed in points, on a scale of 1 to 5. To receive
 * [An Introduction to OpenGL](http://www.glprogramming.com/red/chapter01.html)
 
 ### Artificial Intelligence to Play Against Computer (3 points)
+
+#### Recommended Reading
+
+* [Minimax Algorithm](https://en.wikipedia.org/wiki/Minimax)
