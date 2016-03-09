@@ -38,30 +38,30 @@ Note: We display column numbers starting at 1, but these are for display only. I
 ===Specifications===
 The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
 
-`Enter L to load a game, or P to play:<\code> <u>p</u>
+`Enter L to load a game, or P to play:` <u>p</u>
 
 **Play**: If "play" is chosen, the game will ask for the names of two players.
-`Player 1, enter your name:<\code> <u>Batman</u>
+`Player 1, enter your name:` <u>Batman</u>
 `Player 2, enter your name:` <u>Bane</u>
 
 It will then print the initial board and ask for a move from the first player.
 `
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-  |   |   |   |   |   |   |   |
-  +---+---+---+---+---+---+---+
-col 1   2   3   4   5   6   7
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+  |   |   |   |   |   |   |   |  
+  +---+---+---+---+---+---+---+  
+col 1   2   3   4   5   6   7  
 
-Enter: the column to move, q to quit, s to save
+Enter: the column to move, q to quit, s to save  
 Batman enter your move:
 `
 
