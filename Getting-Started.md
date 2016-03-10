@@ -42,7 +42,22 @@ All team members should install the following software on their computer. Make s
 
 ### Visual Studio
 
-1. Comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
-1. On line 2, add `#include "graphics.h"`
+1. Inside the directory where you cloned the starter code, you will find a folder called "glut", which contains three files: "glut.h", "glut32.dll" and "glut32.lib".
+2. Go to "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\" and create a folder called "GL" if it does not already exist.
+3. Copy "glut.h" into the "GL" folder you just created ("C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\GL\")
+4. Copy "glut32.dll" into "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\"
+5. Copy "glut32.lib" into "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\"
+6. Open your Connect 4 project in Visual Studio and add **both graphics.cpp and graphics.h** into the project the same way the other starter files were added in the Core
+7. In connect4.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
+8. On line 2, add `#include "graphics.h"`
+9. Have fun with the graphics reach!
 
 ### XCode
+
+1. Open your Connect 4 project in XCode and add **both graphics.cpp and graphics.h** into the project
+2. Double click on the blue project icon in the left panel
+3. Click the "Build Phases" tab, open the "Link Binary With Libraries" list, and click the '+' sign at the bottom left corner of the list
+4. Add both "OpenGL.framework" and "GLUT.framework"
+5. In connect4.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
+6. On line 2, add `#include "graphics.h"`
+7. Have fun with the graphics reach!
