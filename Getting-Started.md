@@ -30,3 +30,10 @@ All team members should install the following software on their computer. Make s
 ### XCode
 
 ## Project Setup for Graphics Reach
+
+### Visual Studio
+
+1. Comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
+1. On line 2, add `#include "graphics.h"`
+
+### XCode
