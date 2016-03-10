@@ -2,7 +2,7 @@ The following is a list of pre-approved reach features. This list is non-exhaust
 
 ## Graphics Using OpenGL
 
-To setup your project for the graphics reach, please follow [these instructions](../Getting-Started#project-setup-for-graphics-reach)
+To setup your project for the graphics reach, please follow [these instructions](Getting-Started#project-setup-for-graphics-reach)
 
 ### Recommended Reading
 
