@@ -21,13 +21,22 @@ All team members should install the following software on their computer. Make s
 1. Open Visual Studio and select "New Project..."
 2. Go to Templates->Visual C++ in the left panel and select "Empty Project" in the middle panel
 3. Click on "Browse..." and navigate to the directory where you cloned the starter code
-4. Name your project and click OK
+4. **Name your project as Connect4** and click OK
 5. Right click on "Source Files", go to Add->Existing Item...
 6. Navigate to the directory where you cloned the starter code and add **ONLY board.cpp and connect4.cpp**
 7. Repeat steps 5 and 6 for the header files, **board.h and connect4.h**
 8. Now you can start working on the Core!
 
 ### XCode
+
+1. Open XCode and select "Create a new Xcode project"
+2. Go to OS X->Application in the left panel, select "Command Line Tool" in the middle panel, and click "Next"
+3. **Enter the Product Name as Connect4**, make sure Language is C++, and click "Next"
+4. Navigate to the directory where you cloned the starter code and click "Create"
+5. Right click on main.cpp, select "Delete", and select "Move to Trash"
+6. Go to "Finder", navigate to the directory where you cloned the starter code, and drag **board.h, board.cpp, connect4.h and connect4.cpp** into the project
+7. Make sure "Copy items if needed" is **unchecked** and click "Finish"
+8. Now you can start working on the Core!
 
 ## Project Setup for Graphics Reach
 
