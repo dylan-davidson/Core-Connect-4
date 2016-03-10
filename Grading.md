@@ -52,8 +52,8 @@ If you want to implement ideas that are not given in the table( highly encourage
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
 | Easy | Your implementation beats our [easy](../Reach#Easy_AI) AI. | 25 pts |
-| Medium | Your implementation beats our medium AI. We will run 5 games against our medium AI with each game being 4 points. | 20 pts |
-| Hard | Your implementation beats our hard AI. We will run 5 games against our medium AI with each game being 3 points. | 15 pts |
+| Medium | Your implementation beats our medium AI. We will run 5 games against our medium AI with each run worth 4 points. | 20 pts |
+| Hard | Your implementation beats our hard AI. We will run 5 games against our medium AI with each run worth 3 points. | 15 pts |
 | | | 50 pts |
 
 ## Showcase
