@@ -297,5 +297,7 @@ The function will start at row 0, column 2 (where the middle 'x' is located) and
 ## Sample Runs
 
 [Sample Run 1](https://github.com/eecs183/Connect4/blob/master/Sample_Run_1.txt)
+
 [Sample Run 2](https://github.com/eecs183/Connect4/blob/master/Sample_Run_2.txt)
+
 [Sample Run 3](https://github.com/eecs183/Connect4/blob/master/Sample_Run_3.txt)
