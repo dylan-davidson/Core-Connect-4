@@ -2,6 +2,8 @@ The following is a list of pre-approved reach features. This list is non-exhaust
 
 ## Graphics Using OpenGL
 
+To setup your project for the graphics reach, please follow [these instructions](../Getting_Started#Project_Setup_for_Graphics_Reach)
+
 ### Recommended Reading
 
 * [An Introduction to OpenGL](http://www.glprogramming.com/red/chapter01.html)
