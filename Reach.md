@@ -33,6 +33,13 @@ glEnd();</code></pre>
 
 ## Artificial Intelligence
 
+### Easy AI
+
+Our easy AI implementation will implement the following algorithm:
+
+* If the opponent can win in the next turn, we will try to block that move.
+* Otherwise, we will place a token in the column that has the fewest number of tokens.
+
 ### Recommended Reading
 
 * [Minimax Algorithm](https://en.wikipedia.org/wiki/Minimax)
