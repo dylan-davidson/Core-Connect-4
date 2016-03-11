@@ -38,7 +38,7 @@ We will only grade one of the following! If you implement both you must specify 
 
 ### Graphics
 
-If you want to implement ideas that are not given in the table( highly encouraged! ), contact us at 183connect4@umich.edu so we can let you know if it would fit in the Medium Functionality or the Hard Functionality.
+If you want to implement ideas that are not given in the table**(highly encouraged!)**, contact us at 183connect4@umich.edu so we can let you know if it would fit in the Medium Functionality or the Hard Functionality.
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
