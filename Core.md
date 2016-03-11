@@ -294,6 +294,10 @@ If you write:
 <pre><code>int count = piecesInDirection(0, 2, 0, -1);</code></pre>
 The function will start at row 0, column 2 (where the middle 'x' is located) and move to the left one column at a time (dRow = 0 and dCol = -1) searching for matching tokens. The function returns 1.
 
+## Grading Rubric
+
+Here is the [grading rubric](Grading#core) for the core.
+
 ## Sample Runs
 
 [Sample Run 1](https://github.com/eecs183/Connect4/blob/master/Sample_Run_1.txt)
