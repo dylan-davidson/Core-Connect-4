@@ -27,11 +27,15 @@ glEnd();</code></pre>
 * <code>void mouse(int button, int state, int x, int y)</code>: This function is called when the mouse button is pressed or released. The first parameter specifies which mouse button was pressed or released. The second parameter specifies the current state of the button (possible values include GLUT_UP and GLUT_DOWN). The last two parameters are the integer coordinates of the mouse (in pixels).
 * <code>int graphicsPlay(int argc, char *argv[])</code>: This function is written for you. It is the first function called and sets up all of the listeners for the mouse and keyboard, creates the graphics window, and initializes and displays the graphics, among other things.
 
+Here is the [grading rubric](Grading#graphics) for graphics
+
 ### Recommended Reading
 
 * [An Introduction to OpenGL](http://www.glprogramming.com/red/chapter01.html)
 
 ## Artificial Intelligence
+
+Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
 ### Easy AI
 
