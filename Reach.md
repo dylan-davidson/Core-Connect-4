@@ -12,13 +12,13 @@ OpenGL is an open-source Graphics Library extension of C++. The following functi
   * <code>drawCircle()</code>: This is not an OpenGL function, but it has been declared and defined for you. It takes two integer coordinates and an integer radius and draws a circle on the screen of the specified radius whose center is at the specified coordinate. All arguments are in pixel units. Example call to draw a circle of radius 25 at coordinate (50,60): <code>drawCircle(50, 60, 25);</code>
   * <code>glRasterPos2i()</code>: Takes two integer coordinates. Used with the next function to write words in the graphics window. This function specifies where to start writing. Example call: <code>glRasterPos2i(200, 150);</code>
   * <code>glutBitmapCharacter()</code>: Specifies font, size, and character to print. **Prints only one character, so if you need to print a longer string then this function will need to be put in a loop**. Example call: <code>glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, 'A');</code>
-  * If you want to draw triangles or rectangles, first type <code>glBegin(GL_TRIANGLES)</code> or <code>glBegin(GL_QUADS)</code>. Then specify the coordinates in groups of three for triangles, or groups of four for rectangles, using the function <code>glVertex2i()</code> that takes two integer coordinates. End with <code>glEnd()</code>. Example calls to draw one triangle:
+  * If you want to draw triangles or rectangles, first type <code>glBegin(GL_TRIANGLES)</code> or <code>glBegin(GL_QUADS)</code>. Then specify the coordinates in groups of three for triangles, or groups of four for rectangles, using the function <code>glVertex2i()</code> that takes two integer coordinates. The <code>2</code> in the function name means two points will be used (as we are working in a 2-dimensional space), and the <code>i</code> in the function name stands for integer. Other forms, including floating-point values, are also possible. See this [documentation](https://www.opengl.org/sdk/docs/man2/xhtml/glVertex.xml) for more information. End with <code>glEnd()</code>. Example calls to draw one triangle:
 <pre><code>glBegin(GL_TRIANGLES);
 glVertex2i(100, 100);
 glVertex2i(150, 100);
 glVertex2i(100, 150);
 glEnd();</code></pre>
-  An example call to draw a rectangle is given in the distribution code.
+  An example call to draw a rectangle is given in the distribution code. For more information on drawing shapes, check out this [tutorial](http://www.falloutsoftware.com/tutorials/gl/gl2p5.htm).
 * <code>void reshape(int w, int h)</code>: This function is called when the user changes the size of the graphics window. It takes two integer arguments representing the new width and height of the window (in pixels).
 * <code>void refresh(void)</code>: This function is called at the beginning of the graphics program and when the system is idle.
 * <code>void kbd(unsigned char key, int x, int y)</code>: This function is called when the user presses a key on the keyboard. The key is input as a character argument.
