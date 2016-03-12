@@ -1,5 +1,7 @@
 The following is a list of pre-approved reach features. This list is non-exhaustive. If you wish to do a feature other than one listed on here, or a variation on one listed, you may do so, but you **must** contact us at 183connect4@umich.edu to get your feature _approved_. If you do not contact us to get a non-listed feature approved you will **likely not receive credit**.
 
+You may modify the Board class for the Reach portion of the project. Make sure you save the Core implementation in a different git branch using the instructions that were given. You should save a backup copy for yourself, as well.
+
 ## Graphics Using OpenGL
 
 To setup your project for the graphics reach, please follow [these instructions](Getting-Started#project-setup-for-graphics-reach).
@@ -35,13 +37,15 @@ Here is the [grading rubric](Grading#graphics) for graphics
 
 ## Artificial Intelligence
 
-To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach).
+To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach). 
+
+For the AI Reach project, you will need to create an algorithm to choose a column given an instance of the Board class. You can create as many helper functions as you want, but we will only be grading based on the return value of <code>int connect4AI(const Board& board);</code> in <code>ai.cpp</code>. This function must return an integer in the range [0,NUM_COLS-1].
 
 Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
 ### Easy AI
 
-Our easy AI implementation will select a random column to use as its move.
+Our easy AI implementation will select a random column to use as its move. This is the AI included in the distribution code.
 
 ### Recommended Reading
 
