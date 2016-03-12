@@ -35,7 +35,7 @@ Here is the [grading rubric](Grading#graphics) for graphics
 
 ## Artificial Intelligence
 
-To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-artificial-intelligence-reach).
+To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach).
 
 Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
