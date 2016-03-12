@@ -18,6 +18,8 @@ All team members should install the following software on their computer. Make s
 
 ### Visual Studio
 
+**Make sure that your project is named Connect4**
+
 1. Open Visual Studio and select "New Project..."
 2. Go to Templates->Visual C++ in the left panel and select "Empty Project" in the middle panel
 3. Click on "Browse..." and navigate to the directory where you cloned the starter code
@@ -28,6 +30,8 @@ All team members should install the following software on their computer. Make s
 8. Now you can start working on the Core!
 
 ### XCode
+
+**Make sure that your project is named Connect4**
 
 1. Open XCode and select "Create a new Xcode project"
 2. Go to OS X->Application in the left panel, select "Command Line Tool" in the middle panel, and click "Next"
