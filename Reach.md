@@ -41,6 +41,8 @@ To setup your project for the AI reach, please follow [these instructions](Getti
 
 For the AI Reach project, you will need to create an algorithm to choose a column given an instance of the Board class. You can create as many helper functions as you want, but we will only be grading based on the return value of <code>int connect4AI(const Board& board);</code> in <code>ai.cpp</code>. This function must return an integer in the range [0,NUM_COLS-1].
 
+When you run your program, the user and the AI will alternate moves. The user will move first, being prompted for an input. If the user enters a legal move, the board will print with the user's move and will print again with the AI's move. This will repeat until the game ends or the user quits.
+
 Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
 ### Easy AI
