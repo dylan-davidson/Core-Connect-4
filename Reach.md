@@ -39,10 +39,7 @@ Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
 ### Easy AI
 
-Our easy AI implementation will implement the following algorithm:
-
-* If the opponent can win in the next turn, we will try to block that move.
-* Otherwise, we will place a token in the column that has the fewest number of tokens.
+Our easy AI implementation will select a random column to use as its move.
 
 ### Recommended Reading
 
