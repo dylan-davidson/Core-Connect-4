@@ -61,3 +61,21 @@ All team members should install the following software on their computer. Make s
 5. In connect4.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 6. On line 2, add `#include "graphics.h"`
 7. Have fun with the graphics reach!
+
+## Project Setup for AI Reach
+
+### Visual Studio
+
+1. Open your Connect 4 project in Visual Studio and add **ai.h, ai.cpp, and driver-vs.o** into the project the same way the other starter files were added in the core
+2. In order to use the main function in the driver for the AI **instead** of the main function in **connect4.cpp**, follow steps 3-4. In order to use the main function in **connect4.cpp** **instead** of the main function in the driver for the AI, exclude **driver-vs.o** and re-include **connect4.cpp** following steps 3-4.
+3. Right click on your **connect4.cpp** file in the left panel and select "Properties".
+4. Under the "General" tab, choose "Yes" for the "Excluded From Build" option and click "OK".
+5. Have fun with the AI reach!
+
+### XCode
+
+1. Open your Connect 4 project in Visual Studio and add **ai.h, ai.cpp, and driver-xcode.o** into the project the same way the other starter files were added in the core
+2. In order to use the main function in the driver for the AI **instead** of the main function in **connect4.cpp**, follow steps 3-4. In order to use the main function in **connect4.cpp** **instead** of the main function in the driver for the AI, exclude **driver-xcode.o** and re-include **connect4.cpp** following steps 3-4.
+3. Click on your **connect4.cpp** file in the left panel.
+4. Uncheck the project name under "Target Membership" in the right panel.
+5. Have fun with the AI reach!
