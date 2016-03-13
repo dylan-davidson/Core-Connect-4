@@ -5,13 +5,13 @@ All groups must submit a project proposal.
 The team that you submit your proposal with constitutes your team for the Final Project. There will be no revisions to these teams except in situations which merit staff intervention. You may not change your team once this document has been submitted.
 
 #### Overall Project Description
-Your proposal must include a **brief** description of what program will do overall, and how users will interact with it. Think about how you would describe your program to a friend. This description need not be more than 5-6 sentences, but should include both a description of the basic functionality and what features you are planning for the reach.
+Your proposal must include a **brief** description (5 to 6 sentences) of what the program will do, and how users will interact with it. Think about how you would describe your program to a friend. You should describe the basic functionality of your program and what features you are planning for the reach.
 
 #### Group Logistics
 Your group should be meeting regularly. In your proposal, list when and where your group will be holding meetings. Also, describe how your group will communicate with each other (we like GroupMe). Finally, describe how your group will divide and assign tasks among group members.
 
 #### Submission
-Submit your proposal (one per team) in PDF format by **03/25 at 11:59pm** accepted until 03/26 at 11:59pm to Gradescope under the **Proposal: Connect 4** assignment. To do so please follow these instructions:
+Submit your proposal (one per team) in PDF format by **03/25 at 11:59pm**. Submissions will be accepted until 03/26 at 11:59pm to Gradescope under the **Proposal: Connect 4** assignment. To do so please follow these instructions:
 
 1. Head to [EECS 183 on Gradescope](https://gradescope.com/courses/2688), then choose Proposal: Connect 4 from the assignments list. Select Submit PDF and upload proposal.pdf.
 
