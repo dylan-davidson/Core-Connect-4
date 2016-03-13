@@ -2,11 +2,11 @@ The goal of the Core is to implement a fully-functioning game of Connect 4. The 
 
 The files included in this project are listed below.
 * **board.h**: Declarations of global constant variables and enums used throughout the project. Enums are explained below. Declarations for the Board class.
-* **board.cpp**: Definitions of Board member functions.
+* **board.cpp**: Definitions of Board member functions. One member function, <code>prettyPrintBoard</code>, is already defined for you. You need to define the rest.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file.
-* **connect4.cpp**: Definitions of the functions in connect4.h and the main function.
-* **graphics.h**: Declarations of functions needed for graphics. Only used for optional graphics Reach.
-* **graphics.cpp**: Definitions of functions needed for graphics functionality. Only used for optional graphics Reach.
+* **connect4.cpp**: Definitions of the functions in connect4.h and the main function. You need to define all of these. The cout statements are included in the distribution code.
+
+There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. For the Core, only include the four files listed above in Visual Studio or Xcode.
 
 ## How to Play Connect 4  
 Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
@@ -162,7 +162,7 @@ if 's' is entered you will save the board to a file. The format of this save is 
 Batman enter your move:</code> <u>s</u>
 <code>Enter the filename:</code> <u>game1.txt</u></pre>
 
-Following the save, the program will print the board again and ask for the move of the **same player**.
+Following the save, the program will print the board and the menu again and ask for the move of the **same player**.
 
 **Game Over with a Win or Draw**
 
@@ -206,10 +206,13 @@ When <code>const</code> is written at the end of a member function header line, 
 ## FEN Strings
 The position notation used to describe the Connect 4 Board is based on the FEN notation used in chess. Forsyth-Edwards Notation (FEN) is a standard notation for describing a particular board position of a chess game. The purpose of FEN is to provide all the necessary information to restart a game from a particular position.
 
-The format first lists piece placement. Each row is described from row 1 to row 6 (bottom row to top row); each column within a row is described from column 1 to column 7 (left column to right column). Note: these numbers are according to the display and NOT by indices of the array. 
-* If a location is occupied, it will be denoted using the 'x' or 'o' character that occupies the location.
-* Unoccupied locations are noted by the number of consecutive blank locations. 
-* A single unoccupied location is denoted as '1'. Each row will be separated by a single '/'.
+The format first lists piece placement.
+* The rows are described from bottom row to top row, separated by forward slashes <code>/</code>
+* Each column within a row is described from left column to right column, in the following format:
+  * If a location is occupied, it will be denoted using the 'x' or 'o' character that occupies the location.
+  * Unoccupied locations are noted by the number of consecutive blank locations in that row. 
+  * A single unoccupied location is denoted as '1'.
+* After all rows of the board are written in this way, there is a space and the character of the next player to move (either 'x' or 'o').
 
 **Examples**
 
@@ -293,6 +296,12 @@ The function will start at row 0, column 2 (where the middle 'x' is located) and
 If you write:
 <pre><code>int count = piecesInDirection(0, 2, 0, -1);</code></pre>
 The function will start at row 0, column 2 (where the middle 'x' is located) and move to the left one column at a time (dRow = 0 and dCol = -1) searching for matching tokens. The function returns 1.
+
+If you write:
+<pre><code>int count = piecesInDirection(0, 3, 1, 1);</code></pre>
+The function will start at row 0, column 3 (where the rightmost 'x' is located) and move diagonally up and to the right (dRow = 1 and dCol = 1) searching for matching tokens. The function returns 0.
+
+<code>piecesInDirection</code> will work even for a row and column that is unoccupied. However, when you call this function as part of the logic for determining a Win, you should only call it on rows and columns that are occupied by a player token.
 
 ## Grading Rubric
 
