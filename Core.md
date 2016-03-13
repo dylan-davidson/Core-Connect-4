@@ -68,8 +68,7 @@ Batman enter your move:
 See the next section on rules of play.
 
 **Load a game**: If "play" is not chosen, all other entries will load a game from a file. It will open the file given, read it, and load the board accordingly. The board is then displayed. This file will be a .txt file with the following format:
-<pre><code>
-name of player 1
+<pre><code>name of player 1
 name of player 2
 a FEN string holding all board information
 </code></pre>
