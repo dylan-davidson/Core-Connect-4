@@ -231,7 +231,7 @@ FEN string for an empty board: <code>7/7/7/7/7/7 x</code>
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
 </code></pre>
-FEN string for above board: <code>2x4/7/7/7/7/7/7 o</code>
+FEN string for above board: <code>2x4/7/7/7/7/7 o</code>
 
 <pre><code>
   +---+---+---+---+---+---+---+
@@ -249,7 +249,7 @@ FEN string for above board: <code>2x4/7/7/7/7/7/7 o</code>
   +---+---+---+---+---+---+---+
 col 1   2   3   4   5   6   7
 </code></pre>
-FEN string for above board: <code>2x1oo1/2x4/7/7/7/7/7 x</code>
+FEN string for above board: <code>2x1oo1/2x4/7/7/7/7 x</code>
 
 ## Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const
 
