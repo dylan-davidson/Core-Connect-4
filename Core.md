@@ -211,8 +211,7 @@ The format first lists piece placement.
 * The rows are described from bottom row to top row, separated by forward slashes <code>/</code>
 * Each column within a row is described from left column to right column, in the following format:
   * If a location is occupied, it will be denoted using the 'x' or 'o' character that occupies the location.
-  * Unoccupied locations are noted by the number of consecutive blank locations in that row. 
-  * A single unoccupied location is denoted as '1'.
+  * Unoccupied locations are noted by the number of consecutive blank locations in that row.
 * After all rows of the board are written in this way, there is a space and the character of the next player to move (either 'x' or 'o').
 
 **Examples**
