@@ -43,6 +43,15 @@ For the AI Reach project, you will need to create an algorithm to choose a colum
 
 When you run your program, the user and the AI will alternate moves. The user will move first, being prompted for an input. If the user enters a legal move, the board will print with the user's move and will print again with the AI's move. This will repeat until the game ends or the user quits.
 
+Here are some helpful hints to get your started:
+* Play the Core a handful of times with different people. Pay attention to what moves you and your opponent make and think about why those moves are chosen. Notice any patterns in behavior. Ask your opponent why they chose a move you don't understand.
+* Categorize moves (a win, a block, etc.). Under what conditions is a move preferable? 
+* Can you think of cases when multiple columns might be equally preferable? What is your strategy in those cases? For example, think about the first move of the game. You start with an empty board. How do you choose a column to place your initial token?
+* Develop a strategy of gameplay (or multiple strategies! An offensive strategy, a defensive strategy, a greedy strategy, a hybrid strategy, etc.).
+* Implement your strategy (or strategies).
+* Test your implementations. Play against your AI. How does your AI perform? Can you beat it? Where does it go wrong?
+* Improve your implementation. Tweak it. Play with it. See what happens. Have fun with it!
+
 Here is the [grading rubric](Grading#artificial_intelligence) for AI
 
 ### Easy AI
