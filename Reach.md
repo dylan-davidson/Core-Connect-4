@@ -48,7 +48,3 @@ Here is the [grading rubric](Grading#artificial_intelligence) for AI
 ### Easy AI
 
 Our easy AI implementation will select a random column to use as its move. This is the AI included in the distribution code.
-
-### Recommended Reading
-
-* [Minimax Algorithm](https://en.wikipedia.org/wiki/Minimax)
