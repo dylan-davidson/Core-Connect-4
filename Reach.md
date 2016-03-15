@@ -46,8 +46,8 @@ For the AI Reach project, you will need to create an algorithm to choose a colum
 When you run your program, the user and the AI will alternate moves. The user will move first, being prompted for an input. If the user enters a legal move, the board will print with the user's move and will print again with the AI's move. This will repeat until the game ends or the user quits.
 
 **Your implementation must take less than 2 seconds to decide on a move.** To calculate the time your function takes, you can use a C++ [clock](http://www.cplusplus.com/reference/ctime/clock/). Here is how to implement it:
-* <code>#include <time.h></code> or <code>#include <ctime></code> in <code>ai.cpp</code>.
-* <code>#include <iostream></code> in <code>ai.cpp</code>.
+* <pre><code>#include <time.h></code></pre> or <pre><code>#include <ctime></code></pre> in <code>ai.cpp</code>.
+* <pre><code>#include <iostream></code></pre> in <code>ai.cpp</code>.
 * Write <code>using namespace std;</code> in <code>ai.cpp</code>.
 * At the beginning of your <code>connect4AI</code> function, declare an instance of the clock class and initialize it to the current time:
 <pre><code>clock_t t;
