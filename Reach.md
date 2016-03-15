@@ -45,6 +45,18 @@ For the AI Reach project, you will need to create an algorithm to choose a colum
 
 When you run your program, the user and the AI will alternate moves. The user will move first, being prompted for an input. If the user enters a legal move, the board will print with the user's move and will print again with the AI's move. This will repeat until the game ends or the user quits.
 
+**Your implementation must take less than 2 seconds to decide on a move.** To calculate the time your function takes, you can use a C++ [clock](http://www.cplusplus.com/reference/ctime/clock/). Here is how to implement it:
+* <code>#include <time.h></code> or <code>#include <ctime></code> in <code>ai.cpp</code>.
+* <code>#include <iostream></code> in <code>ai.cpp</code>.
+* Write <code>using namespace std;</code> in <code>ai.cpp</code>.
+* At the beginning of your <code>connect4AI</code> function, declare an instance of the clock class and initialize it to the current time:
+<pre><code>clock_t t;
+t = clock();</code></pre>
+* After your calculations (but before you return from the function), calculate the difference in time and print it out as seconds:
+<pre><code>t = clock() - t;
+cout << "Took " << double(t) / CLOCKS_PER_SEC << " seconds" << endl;</code></pre>
+Make sure you **remove all print (cout) statements before handing in your implementation**. The final version of your function should not print anything. These examples are for your own use during implementation. They are not to be included in the final product.
+
 Here are some helpful hints to get your started:
 * Play the Core a handful of times with different people. Pay attention to what moves you and your opponent make and think about why those moves are chosen. Notice any patterns in behavior. Ask your opponent why they chose a move you don't understand.
 * Categorize moves (a win, a block, etc.). Under what conditions is a move preferable? 
