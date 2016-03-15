@@ -1,3 +1,13 @@
+The final project is worth **130** points, which will be awarded as follows:
+| Category | Points |
+|---------------------------------------|----------|
+| [Proposal](Grading#proposal) | 10 pts |
+| [Core](Grading#core) | 50 pts |
+| Core Team Evaluations | 5 pts |
+| [Reach](Grading#reach) | 50 pts |
+| Reach Team Evaluations | 5 pts |
+| [Showcase](Grading#showcase) | 10 pts |
+
 ## Proposal
 
 All groups must submit a project proposal.
