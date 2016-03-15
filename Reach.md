@@ -39,6 +39,8 @@ Here is the [grading rubric](Grading#graphics) for graphics
 
 To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach). 
 
+This project includes an object file called driver that will run a main function. It allows the user to play against the AI you implement. Recall from lecture that all source files (*.cpp files) are compiled into object files before linking together to form an executable that you can run. The driver object file included in the project will link with the object files created from compiling <code>board.cpp</code> and <code>ai.cpp</code> to create the executable.
+
 For the AI Reach project, you will need to create an algorithm to choose a column given an instance of the Board class. You can create as many helper functions as you want, but we will only be grading based on the return value of <code>int connect4AI(const Board& board);</code> in <code>ai.cpp</code>. This function must return an integer in the range [0,NUM_COLS-1].
 
 When you run your program, the user and the AI will alternate moves. The user will move first, being prompted for an input. If the user enters a legal move, the board will print with the user's move and will print again with the AI's move. This will repeat until the game ends or the user quits.
