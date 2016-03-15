@@ -90,7 +90,17 @@ All team members should install the following software on their computer. Make s
 ### XCode
 
 1. Open your Connect 4 project in XCode and add **ai.h, ai.cpp, and driver-xcode.o** into the project the same way the other starter files were added in the core
-2. In order to use the main function in the driver for the AI **instead** of the main function in **connect4.cpp**, follow steps 3-4. In order to use the main function in **connect4.cpp** **instead** of the main function in the driver for the AI, exclude **driver-xcode.o** and re-include **connect4.cpp** following steps 3-4.
+
+#### To Use driver-xcode.o’s Main
+
+1. Click on your **connect4.cpp** file in the left panel.
+2. **Uncheck** the project name under "Target Membership" in the right panel.
+3. Click on your **driver-xcode.o** file in the left panel.
+4. **Check** the project name under "Target Membership" in the right panel.
+
+#### To Revert Back To connect4.cpp’s Main
+
+1. Click on your **driver-xcode.o** file in the left panel.
+2. **Uncheck** the project name under "Target Membership" in the right panel.
 3. Click on your **connect4.cpp** file in the left panel.
-4. Uncheck the project name under "Target Membership" in the right panel.
-5. Have fun with the AI reach!
+4. **Check** the project name under "Target Membership" in the right panel.
