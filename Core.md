@@ -158,7 +158,10 @@ If 'q' is entered, play will stop at that point. The program will print the foll
 
 **Save the Board**
 
-if 's' is entered you will save the board to a file. The format of this save is FEN strings. Basically you want to printBoard to the output stream chosen -- file or monitor.
+if 's' is entered you will save the board to a file. The format of this save is: <pre><code>name of player 1
+name of player 2
+a FEN string holding all board information
+</code></pre>Basically you want to printBoard to the output stream chosen -- file or monitor.
 <pre><code>Enter: the column to move, q to quit, s to save
 Batman enter your move:</code> <u>s</u>
 <code>Enter the filename:</code> <u>game1.txt</u></pre>
