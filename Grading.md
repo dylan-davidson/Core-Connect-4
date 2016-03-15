@@ -1,6 +1,7 @@
 The final project is worth **130** points, which will be awarded as follows:
+
 | Category | Points |
-|---------------------------------------|----------|
+|-------------------|----------|
 | [Proposal](Grading#proposal) | 10 pts |
 | [Core](Grading#core) | 50 pts |
 | Core Team Evaluations | 5 pts |
