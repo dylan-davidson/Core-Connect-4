@@ -153,7 +153,7 @@ If 'Q' or 'q' is entered, play will stop at that point. The program will print t
 
 **Save the Board**
 
-if 'S' or 's' is entered you will save the board to a file. The format of this save is: <pre><code>name of player 1
+If 'S' or 's' is entered you will save the board to a file. The format of this save is: <pre><code>name of player 1
 name of player 2
 a FEN string holding all board information
 </code></pre>Basically you want to printBoard to the output stream chosen -- file or monitor.
