@@ -146,11 +146,6 @@ col 1   2   3   4   5   6   7
 Enter: the column to move, q to quit, s to save
 Bane enter your move:</code></pre>
 
-**Illegal Moves**
-
-A position off the game board or a column that is full will result in an error message and the player must re-enter the move. The error message is:
-<pre><code>ILLEGAL MOVE: Try again</code></pre>
-
 **Quit**
 
 If 'Q' or 'q' is entered, play will stop at that point. The program will print the following:
@@ -167,6 +162,13 @@ Batman enter your move:</code> <u>s</u>
 <code>Enter the filename:</code> <u>game1.txt</u></pre>
 
 Following the save, the program will print the board and the menu again and ask for the move of the **same player**.
+
+**Illegal Moves**
+
+Any other user input, including a position off the game board or a column that is full, will result in an error message and the player must re-enter the move. The error message is:
+<pre><code>ILLEGAL MOVE: Try again</code></pre>
+
+This means that you do **not** need to check for bad user input.
 
 **Game Over with a Win or Draw**
 
