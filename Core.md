@@ -153,12 +153,12 @@ A position off the game board or a column that is full will result in an error m
 
 **Quit**
 
-If 'q' is entered, play will stop at that point. The program will print the following:
+If 'Q' or 'q' is entered, play will stop at that point. The program will print the following:
 <pre><code>Thanks for playing!</code></pre>
 
 **Save the Board**
 
-if 's' is entered you will save the board to a file. The format of this save is: <pre><code>name of player 1
+if 'S' or 's' is entered you will save the board to a file. The format of this save is: <pre><code>name of player 1
 name of player 2
 a FEN string holding all board information
 </code></pre>Basically you want to printBoard to the output stream chosen -- file or monitor.
