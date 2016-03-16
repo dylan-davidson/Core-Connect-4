@@ -202,7 +202,7 @@ col 1   2   3   4   5   6   7
 The final board will also be printed in the case of a Draw.
 
 ## Enums
-Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <code>Draw</code>, <code>Win</code>, and <code>NoResult</code>. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
+Enums specify a custom primitive type. It gives a name and possible values of the type. Just like a type <code>bool</code> has possible values <code>true</code> and <code>false</code>, in this project we define a type <code>Result</code> that has possible values <code>IllegalMove</code>, <code>Draw</code>, <code>Win</code>, and <code>NoResult</code>. Here, <code>NoResult</code> means that the move was legal and there was no win or draw. We also define an enum <code>PieceType</code> that has possible values <code>Empty</code>, <code>Player1</code>, and <code>Player2</code>.
 
 ## const
 When <code>const</code> is written at the end of a member function header line, that means the function cannot modify the values of the private member variables of the class.
