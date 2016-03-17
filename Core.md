@@ -177,7 +177,7 @@ Each game ends when:
 * All tokens have been played and neither player wins, i.e. Draw
 
 Output statements will be:
-<pre><code>Congratulations <name of winner>! You won!
+<pre><code>Congratulations &lt;name of winner&gt;! You won!
 Draw!</code></pre>
 
 It will also print the final board.
