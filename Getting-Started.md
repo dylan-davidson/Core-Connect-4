@@ -11,9 +11,9 @@ All team members should install the following software on their computer. Make s
 ## Project Setup for Core
 
 1. In your terminal, go to the location where you wish to put the source code for your project.
-2. Clone your team's repository - `git clone https://github.com/eecs183/Connect4_<##>_repository.git`, where `<##>` is the number of your group's repository.
+2. Clone your team's repository - `git clone https://github.com/eecs183/Connect4_<##>_Repository.git`, where `<##>` is the number of your group's repository.
 **Be sure to clone your group's repository, NOT the Connect 4 starter code one!**
-3. Enter the directory where you cloned the repository: `cd Connect4_<##>_repository`. You should then check to make sure you see the starter code files.
+3. Enter the directory where you cloned the repository: `cd Connect4_<##>_Repository`. You should then check to make sure you see the starter code files.
 4. Continue the setup by following either the Visual Studio instructions or the XCode instructions below (depending on which IDE you are using).
 
 ### Visual Studio
