@@ -45,7 +45,7 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Reach
 
-We will only grade one of the following! If you implement both you must specify which one to grade for points. Both graphics and AI add up to 60, but you only need 50 points to get full credit for the reach.
+We will only grade one of the following! If you implement both you must specify which one to grade for points in a readme.md file. Both graphics and AI add up to 60, but you only need 50 points to get full credit for the reach.
 
 ### Graphics
 
