@@ -6,6 +6,13 @@ The files included in this project are listed below.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file.
 * **connect4.cpp**: Definitions of the functions in connect4.h and the main function. You need to define all of these. The cout statements are included in the distribution code.
 
+**Draft, Erin Donahue**
+
+* **graphics.h** Declarations of functions used for the graphics part of the project
+* **graphics.cpp** Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See Reach for more details on editing the existing functions to make yours more unique. 
+
+**end Draft** 
+
 There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. For the Core, only include the four files listed above in Visual Studio or Xcode.
 
 ## How to Play Connect 4  
