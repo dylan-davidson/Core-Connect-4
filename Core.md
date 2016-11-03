@@ -1,18 +1,18 @@
 The goal of the Core is to implement a fully-functioning game of Connect 4. The game will be played in the terminal window with two players manually entering their moves. The program will check for a win or draw after every move. Below we will outline the game, the functions involved in the implementation, and a few sample runs of the fully-implemented program.
 
 The files included in this project are listed below.
-* **board.h**: Declarations of global constant variables and `enums` used throughout the project. Enums are explained below. Declarations for the Board class.
-* **board.cpp**: Definitions of Board member functions. One member function, <code>prettyPrintBoard</code>, is already defined for you. You need to define the rest.
+* **board.h**: Declarations of global constant variables, functions for the Board class, and enums used throughout the project. Enumerators, also known as 'enums', are explained below for you.
+* **board.cpp**: Definitions of Board member functions. One member function, <code>prettyPrintBoard</code>, is already defined for you. You will need to define the rest.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file.
 * **connect4.cpp**: Definitions of the functions in connect4.h and the main function. You need to define all of these. The cout statements are included in the distribution code.
 
 > * **graphics.h**: Declarations of functions used for the graphics part of the project.
-> * **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Reach) for more details on editing the existing functions to develop your own look and feel for your program.  
+> * **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Reach) for more details on editing the existing functions to develop your own look and feel for your program.
 
-> There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. Make sure to include the six files listed above in Visual Studio or Xcode and follow [these instructions](Getting-Started#project-setup-for-graphics) to setup graphics correctly.  
+> There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. Make sure to include the six files listed above in Visual Studio or Xcode and follow [these instructions](Getting-Started#project-setup-for-graphics) carefully to setup the graphics correctly.  
 
-## How to Play Connect 4  
-Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
+## How to Play Connect 4
+Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Player 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
 
 The game board cells will be labeled as follows:  
 <pre><code>
@@ -39,7 +39,7 @@ Note: Within the array, the rows are numbered in ascending order from bottom to 
 Note: We display column numbers starting at 1, but these are for display only. Internally, indexing begins at 0.
 
 ## Specifications
-The game begins by asking if you wish to load a game or to play a game. Note: this entry is not case-sensitive. An uppercase P or a lowercase p will both choose "play".
+The game begins by asking if you wish to load a game or to play a game. This entry is not case-sensitive. An uppercase 'P' or a lowercase 'p' will both mean "play".
 
 <pre><code>Enter L to load a game, or P to play:</code> <u>p</u></pre>
 
