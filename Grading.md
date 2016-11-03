@@ -37,13 +37,13 @@ Remember that the team you submit your proposal with will be your finalized team
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
 | Compilation | Your implementation successfully compiles. | 5 pts |
-| Basic Functionality | • Reading in two names<br/>• Having a loop that prints the board and menu, and reads in user input<br/>• Alternating menu options for both players | 10pts |
+| Basic Functionality | • Related functions comply with RMEs<br/> • Reading in two names<br/>• Having a loop that prints the board and menu, and reads in user input<br/>• Alternating menu options for both players | 10pts |
 | Making a Move | • Determining an illegal move<br/>• Finding the lowest empty row in the selected column<br/>• Changing the state of the board based on the move<br/>• Putting the correct player's token in the board | 10pts |
 | Determine End of Game| • Determining if a player has won<br/>• Determining if a draw has occurred<br/>• Checking for a win or a draw after every move<br/>• Stopping all gameplay if there is a win or a draw | 15pts |
 | File I/O | • Reading a board from a file correctly<br/>• Creating the correct FEN string for a board and writing it to a file | 10pts |
 | | | 50pts |
 
-**Important note**:
+**Important note**: as usual, the functions you implement must comply with the RME specified for that 
 
 ## Reach
 
