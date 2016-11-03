@@ -44,7 +44,7 @@ Here is the [grading rubric](Grading#graphics) for graphics
 
 ## Artificial Intelligence
 
-To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach). 
+> Another option for you Reach is to implement an AI player for your game. To setup your project for the AI reach, please follow [these instructions](Getting-Started#project-setup-for-ai-reach). 
 
 This project includes an object file called driver that will run a main function. It allows the user to play against the AI you implement. Recall from lecture that all source files (*.cpp files) are compiled into object files before linking together to form an executable that you can run. The driver object file included in the project will link with the object files created from compiling <code>board.cpp</code> and <code>ai.cpp</code> to create the executable.
 
