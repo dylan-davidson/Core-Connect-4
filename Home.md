@@ -28,6 +28,6 @@ The following staff members support the Connect 4 Project:
 * Erin Donahue
 * Kristen Escher
 * Ashwin Fujii
-* Héctor García <img src="https://eecs183.org/img/staff/wide/hectorgarciaramirez.jpg" width="100" height="100">
+Héctor García <img src="https://eecs183.org/img/staff/wide/hectorgarciaramirez.jpg" width="100" height="200"> Test
 * Kevin Lee
 * Leah Bar-On Simmons
