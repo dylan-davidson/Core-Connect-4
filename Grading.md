@@ -53,6 +53,7 @@ If you want to implement ideas that are not given in the table**(highly encourag
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
+| Basic Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Having the player's token follow the mouse<br/>• Making a move using a mouse click<br/>• Resizing or centering the board when the window is resized | 30pts |
 | Medium Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Having the player's token follow the mouse<br/>• Making a move using a mouse click<br/>• Resizing or centering the board when the window is resized | 30pts |
 | Hard Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Animating the token dropping down a column<br/>• Highlighting the winning tokens<br/>• Creating a menu or splash screen for the game | 20pts |
 | | | 50pts |
