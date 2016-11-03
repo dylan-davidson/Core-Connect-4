@@ -45,7 +45,7 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Reach
 
-We will only grade one of the following! If you implement both you must specify which one to grade for points in a readme.md file. Both graphics and AI add up to 60, but you only need 50 points to get full credit for the reach.
+> We will only grade one of the following! If you implement both you must specify which one to grade for points in a readme.md file. Note that, in the case of the AI Reach, the points add up to 60 but you only need 50 points to get full credit.
 
 ### Graphics
 
@@ -53,7 +53,6 @@ If you want to implement ideas that are not given in the table**(highly encourag
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
-| Basic Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Having the player's token follow the mouse<br/>• Making a move using a mouse click<br/>• Resizing or centering the board when the window is resized | 30pts |
 | Medium Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Having the player's token follow the mouse<br/>• Making a move using a mouse click<br/>• Resizing or centering the board when the window is resized | 30pts |
 | Hard Functionality | The following are some ideas that fit in this category (two are needed to get full points):<br/>• Animating the token dropping down a column<br/>• Highlighting the winning tokens<br/>• Creating a menu or splash screen for the game | 20pts |
 | | | 50pts |
