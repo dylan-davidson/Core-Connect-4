@@ -11,9 +11,9 @@ The files included in this project are listed below.
 * **graphics.h**: Declarations of functions used for the graphics part of the project.
 * **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Reach) for more details on editing the existing functions to develop your own look and feel for your program.  
 
-**end Draft** 
+There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. For the Core, only include the six files listed above in Visual Studio or Xcode and make sure 
 
-There are three Sample Runs included in the distribution code, as well as files that will be needed for the Reach portion of the project. For the Core, only include the four files listed above in Visual Studio or Xcode.
+**end Draft** 
 
 ## How to Play Connect 4  
 Connect 4 is a two-player game which takes place on a 6 x 7 rectangular board. Play 1 has 21 'x' tokens and Player 2 has 21 'o' tokens. Each player can drop a token at the top of the board in one of the seven columns; the token falls down and fills the lowest unoccupied square. A player cannot drop a token in a column if it is already full (i.e. it already contains six tokens).
