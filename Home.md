@@ -5,7 +5,7 @@ EECS 183. Winter 2016.
 
 **Core.** The main part of this project will be implementing Connect 4 in C++, reading in moves and printing the board via the terminal window. Your program will also have a basic GUI component to facilitate user interaction. 
 
-**Reach.** You will have many options for extending the core part of the project. Potential extensions include: creating an AI for the game (so that you can play against the computer!), using OpenGL to create a unique look and feel for the game, implementing a new game, and more!
+**Reach.** You will have several options for extending the core part of the project. Potential extensions include: creating an AI for the game (so that you can play against the computer!), using OpenGL to create a unique look and feel for the game, implementing a new game, and more!
 
 ### Demo
 This [demo](https://www.youtube.com/watch?v=1hxmycnrDzo) shows a version of the project that you could create!
