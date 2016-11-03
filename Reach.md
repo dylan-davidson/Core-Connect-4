@@ -4,7 +4,7 @@ You may modify the Board class for the Reach portion of the project. Make sure y
 
 ## Graphics Using OpenGL
 
-_The core version of the project included a basic GUI interface using OpenGL (graphics.h and graphics.cpp files). One option for your reach is to create a unique look and feel for your game's GUI interface. To setup your project for using graphics, please follow [these instructions](Getting-Started#project-setup-for-graphics).  _
+The core version of the project included a basic GUI interface using OpenGL (<code>graphics.h</code> and <code>graphics.cpp</code> files). One option for your reach is to create a unique look and feel for your game's GUI by expanding the basic graphics. To setup your project for using graphics, please follow [these instructions](Getting-Started#project-setup-for-graphics).
 
 OpenGL is an open-source Graphics Library extension of C++. The following functions are located in <code>graphics.cpp</code> and are part of the OpenGL construct. You may modify these functions for your Reach portion.
 
