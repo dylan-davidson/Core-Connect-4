@@ -6,10 +6,10 @@ The files included in this project are listed below.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file.
 * **connect4.cpp**: Definitions of the functions in connect4.h and the main function. You need to define all of these. The cout statements are included in the distribution code.
 
-**Draft, Erin Donahue**
+**Draft, Erin Donahue, Hector**
 
-* **graphics.h** Declarations of functions used for the graphics part of the project
-* **graphics.cpp** Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See Reach for more details on editing the existing functions to make yours more unique. 
+* **graphics.h**: Declarations of functions used for the graphics part of the project.
+* **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See Reach for more details on editing the existing functions to develop your own look and feel for your program.  
 
 **end Draft** 
 
