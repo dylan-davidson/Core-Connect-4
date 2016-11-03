@@ -9,7 +9,7 @@ The files included in this project are listed below.
 **Draft, Erin Donahue (Hector updated)**
 
 * **graphics.h**: Declarations of functions used for the graphics part of the project.
-* **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Getting-Started#project-setup-for-graphics-reach) for more details on editing the existing functions to develop your own look and feel for your program.  
+* **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Reach) for more details on editing the existing functions to develop your own look and feel for your program.  
 
 **end Draft** 
 
