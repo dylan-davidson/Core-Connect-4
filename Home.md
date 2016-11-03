@@ -32,4 +32,4 @@ The following staff members support the Connect 4 Project:
 * Kevin Lee
 * Leah Bar-On Simmons
 
-![Hector](https://eecs183.org/staff/hjgarcia)
+![Hector](https://eecs183.org/img/staff/wide/hectorgarciaramirez.jpg)
