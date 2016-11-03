@@ -1,7 +1,7 @@
 The goal of the Core is to implement a fully-functioning game of Connect 4. The game will be played in the terminal window with two players manually entering their moves. The program will check for a win or draw after every move. Below we will outline the game, the functions involved in the implementation, and a few sample runs of the fully-implemented program.
 
 The files included in this project are listed below.
-* **board.h**: Declarations of global constant variables and enums used throughout the project. Enums are explained below. Declarations for the Board class.
+* **board.h**: Declarations of global constant variables and `enums` used throughout the project. Enums are explained below. Declarations for the Board class.
 * **board.cpp**: Definitions of Board member functions. One member function, <code>prettyPrintBoard</code>, is already defined for you. You need to define the rest.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file.
 * **connect4.cpp**: Definitions of the functions in connect4.h and the main function. You need to define all of these. The cout statements are included in the distribution code.
