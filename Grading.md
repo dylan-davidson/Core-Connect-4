@@ -45,11 +45,11 @@ Your Core grade will be determined by how well your function implementations adh
 | File I/O | • Reading a board from a file correctly<br/>• Creating the correct FEN string for a board and writing it to a file | 10pts |
 | | | 50pts |
 
-> ** Important note**: the above breakdown is for reference only. All functions implemented must comply with their respective RMEs in order to get full credit for each category. 
+** Important note**: the above breakdown is for reference only. All functions implemented must comply with their respective RMEs in order to get full credit for each category. 
 
 ## Reach
 
-> We will only grade one of the following! If you implement both you must specify which one to grade for points in a readme.md file. Note that, in the case of the AI Reach, the points add up to 60 but you only need 50 points to get full credit.
+We will only grade one of the following! If you implement both you must specify which one to grade for points in a readme.md file. Note that, in the case of the AI Reach, the points add up to 60 but you only need 50 points to get full credit.
 
 ### Graphics
 
