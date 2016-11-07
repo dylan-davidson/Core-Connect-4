@@ -45,7 +45,7 @@ Your Core grade will be determined by how well your function implementations adh
 | File I/O | • Reading a board from a file correctly<br/>• Creating the correct FEN string for a board and writing it to a file | 10pts |
 | | | 50pts |
 
-** Important note**: the above breakdown is for reference only. All functions implemented must comply with their respective RMEs in order to get full credit for each category. 
+**Important note**: the above breakdown is for reference only. All functions implemented must comply with their respective RMEs in order to get full credit for each category. 
 
 ## Reach
 
