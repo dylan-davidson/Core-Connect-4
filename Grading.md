@@ -22,7 +22,7 @@ Your proposal must include a **brief** description (5 to 6 sentences) of what th
 Your group should be meeting regularly. In your proposal, list when and where your group will be holding meetings. Also, describe how your group will communicate with each other (we like GroupMe). Finally, describe how your group will divide and assign tasks among group members.
 
 #### Submission
-Submit your proposal (one per team) in PDF format by **03/25 at 6:00pm**. Submissions are accepted until **03/26 at 11:59pm** under the **Proposal: Connect 4** assignment. To do so please follow these instructions:
+Submit your proposal (one per team) in PDF format by **11/20 at 6:00pm**. Submissions are accepted until **11/20 at 11:59pm** under the **Proposal: Connect 4** assignment. To do so please follow these instructions:
 
 1. Head to [EECS 183 on Gradescope](https://gradescope.com/courses/2688), then choose Proposal: Connect 4 from the assignments list. Select Submit PDF and upload proposal.pdf.
 
