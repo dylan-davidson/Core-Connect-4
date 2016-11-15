@@ -34,7 +34,7 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Core
 
-Your Core grade will be determined by how well your function implementations adhere to the RME's specified in the distributed code. The following table shows a breakdown of the points based general functionality. 
+Your Core grade will be determined by how well your function implementations adhere to the RME's specified in the distributed code. **The core is due 12/2 by 6:00 and excepted until 12/2 11:59pm** The following table shows a breakdown of the points based general functionality. 
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
