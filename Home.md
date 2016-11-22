@@ -26,8 +26,10 @@ See the [grading](Grading) page for further details.
 The following staff members support the Connect 4 Project:
 
 * Ashwin Fujii
+* Diana Gage
 * Erin Donahue
 * Héctor García
+* Isabella DeShantz-Cook
 * Joel Battsek
 * Kevin Lee
 * Kristen Escher
