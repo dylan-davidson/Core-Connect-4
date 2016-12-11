@@ -1,6 +1,6 @@
 The following is a list of pre-approved reach features. This list is non-exhaustive. If you wish to do a feature other than one listed on here, or a variation on one listed, you may do so, but you **must** contact us at 183connect4@umich.edu to get your feature _approved_. If you do not contact us to get a non-listed feature approved you will **likely not receive credit**.
 
-You may modify the Board class for the Reach portion of the project. Make sure you save the Core implementation in a different git branch using the instructions that were given. You should save a backup copy for yourself, as well.
+You may modify the Board class for the Reach portion of the project.
 
 ## Graphics Using OpenGL
 
