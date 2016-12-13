@@ -49,7 +49,7 @@ Your Core grade will be determined by how well your function implementations adh
 
 ## Reach
 
-Make sure you update your README.md file in your repository with 1) What reach you chose and 2) What functionalities you decided to implement. In the scenario that you implemented both reaches, we will only grade one! Ensure you specify which one you implemented in the README.md file. Note that, in the case of the AI Reach, the points add up to 60 but you only need 50 points to get full credit.
+Make sure you update your README.md file in your repository with what reach you chose and what functionalities you decided to implement. In the scenario that you implemented both reaches, we will only grade one! Ensure you specify which one you implemented in the README.md file. Note that, in the case of the AI Reach, the points add up to 60 but you only need 50 points to get full credit.
 
 ### Graphics
 
