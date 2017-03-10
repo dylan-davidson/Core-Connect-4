@@ -53,11 +53,11 @@ Add some text...
 
 ## Reach
 
-Make sure you update your README.md file in your repository with what reach you chose and what functionalities you decided to implement. In the scenario that you implemented both reaches, we will only grade one! Ensure you specify which one you implemented in the README.md file.
+Make sure you update your README.md file in your repository with what reach you chose and what functionalities you decided to implement. In the scenario that you implemented both reaches, we will only grade one! Ensure you specify which one you implemented in the README.md file. Note that, in the case of the AI reach, there is a total of 60 points up for grabs depending on how many times your AI wins. However, the total points that actually count towards your reach grade will not exceed 50.  
 
 ### Graphics
 
-If you want to implement ideas that are not given in the table**(highly encouraged!)**, contact us at 183connect4@umich.edu so we can let you know if it would fit in the Medium Functionality or the Hard Functionality.
+If you want to implement ideas that are not given in the table **(highly encouraged!)**, contact us at 183connect4@umich.edu so we can let you know if it would fit in the Medium Functionality or the Hard Functionality.
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
