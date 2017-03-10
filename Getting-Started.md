@@ -6,7 +6,7 @@ All team members should install the following software on their computer. Make s
 
 * **Git** - You will be using the command line version of git, which you can install [here](http://git-scm.com/downloads). We will also release a tutorial on how to install and use git shortly.
 
-* **Visual Studio or XCode** - Just like the past projects in this class, you need to use either Visual Studio or XCode to compile and run Connect 4.
+* **Visual Studio or XCode** - Just like the past projects in this class, you need to use either Visual Studio or XCode to compile and run Connect4.
 
 ## Project Setup for Core
 
@@ -25,7 +25,7 @@ All team members should install the following software on their computer. Make s
 3. Click on "Browse..." and navigate to the directory where you cloned the starter code
 4. **Name your project as Connect4** and click OK
 5. Right click on "Source Files", go to Add->Existing Item...
-6. Navigate to the directory where you cloned the starter code and add **ONLY board.cpp and connect4.cpp**
+6. Navigate to the directory where you cloned the starter code and add **ONLY board.cpp, connect4.cpp and main.cpp**
 7. Repeat steps 5 and 6 for the header files, **board.h and connect4.h**
 8. Now you can start working on the Core!
 
@@ -38,7 +38,7 @@ All team members should install the following software on their computer. Make s
 3. **Enter the Product Name as Connect4**, make sure Language is C++, and click "Next"
 4. Navigate to the directory where you cloned the starter code and click "Create"
 5. Right click on main.cpp, select "Delete", and select "Move to Trash"
-6. Go to "Finder", navigate to the directory where you cloned the starter code, and drag **board.h, board.cpp, connect4.h and connect4.cpp** into the project
+6. Go to "Finder", navigate to the directory where you cloned the starter code, and drag **board.h, board.cpp, connect4.h, connect4.cpp and main.cpp** into the project
 7. Make sure "Copy items if needed" is **unchecked** and click "Finish"
 8. Now you can start working on the Core!
 
@@ -52,7 +52,7 @@ All team members should install the following software on their computer. Make s
 4. Copy "glut32.dll" into "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\"
 5. Copy "glut32.lib" into "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\lib\"
 6. Open your Connect 4 project in Visual Studio and add **both graphics.cpp and graphics.h** into the project the same way the other starter files were added in the Core
-7. In connect4.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
+7. In main.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 8. On line 2, add `#include "graphics.h"`
 9. Have fun with the graphics reach!
 
@@ -62,7 +62,7 @@ All team members should install the following software on their computer. Make s
 2. Double click on the blue project icon in the left panel
 3. Click the "Build Phases" tab, open the "Link Binary With Libraries" list, and click the '+' sign at the bottom left corner of the list
 4. Add both "OpenGL.framework" and "GLUT.framework"
-5. In connect4.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
+5. In main.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 6. On line 2, add `#include "graphics.h"`
 7. Have fun with the graphics reach!
 
