@@ -71,36 +71,36 @@ All team members should install the following software on their computer. Make s
 ### Visual Studio
 
 1. Open your Connect 4 project in Visual Studio and add **ai.h** into the project the same way the other header files were added in the core
-2. Now add **ai.cpp and driver-vs.o** into the project the same way the other source files were added in the core
+2. Now add **ai.cpp and driver-vs.o** into the project the same way the other source files were added in the core.
 
 #### To Use driver-vs.o’s Main
 
-1. Right click on your **connect4.cpp** file in the left panel and select "Properties".
+1. Right click on your **main.cpp** file in the left panel and select "Properties".
 2. Under the "General" tab, choose "Yes" for the "Excluded From Build" option and click "OK".
 3. Right click on your **driver-vs.o** file in the left panel and select "Properties".
 4. Under the "General" tab, choose "No" for the "Excluded From Build" option and click "OK".
 
-#### To Revert Back To connect4.cpp’s Main
+#### To Revert Back To main.cpp’s Main
 
 1. Right click on your **driver-vs.o** file in the left panel and select "Properties".
 2. Under the "General" tab, choose "Yes" for the "Excluded From Build" option and click "OK".
-3. Right click on your **connect4.cpp** file in the left panel and select "Properties".
+3. Right click on your **main.cpp** file in the left panel and select "Properties".
 4. Under the "General" tab, choose "No" for the "Excluded From Build" option and click "OK".
 
 ### XCode
 
-1. Open your Connect 4 project in XCode and add **ai.h, ai.cpp, and driver-xcode.o** into the project the same way the other starter files were added in the core
+1. Open your Connect 4 project in XCode and add **ai.h, ai.cpp, and driver-xcode.o** into the project the same way the other starter files were added in the core.
 
 #### To Use driver-xcode.o’s Main
 
-1. Click on your **connect4.cpp** file in the left panel.
+1. Click on your **main.cpp** file in the left panel.
 2. **Uncheck** the project name under "Target Membership" in the right panel.
 3. Click on your **driver-xcode.o** file in the left panel.
 4. **Check** the project name under "Target Membership" in the right panel.
 
-#### To Revert Back To connect4.cpp’s Main
+#### To Revert Back To main.cpp’s Main
 
 1. Click on your **driver-xcode.o** file in the left panel.
 2. **Uncheck** the project name under "Target Membership" in the right panel.
-3. Click on your **connect4.cpp** file in the left panel.
+3. Click on your **main.cpp** file in the left panel.
 4. **Check** the project name under "Target Membership" in the right panel.
