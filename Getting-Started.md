@@ -42,6 +42,10 @@ All team members should install the following software on their computer. Make s
 7. Make sure "Copy items if needed" is **unchecked** and click "Finish"
 8. Now you can start working on the Core!
 
+## Project Setup for Core Testing
+
+We have included a sample test suite to help you test your board.cpp and connect4.cpp functions. 
+
 ## Project Setup for Graphics
 
 ### Visual Studio
