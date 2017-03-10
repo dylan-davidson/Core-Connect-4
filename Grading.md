@@ -49,10 +49,6 @@ Your Core grade will be determined by how well your function implementations adh
 
 **Important note: the above breakdown is for reference only. All functions implemented must comply with their respective RMEs in order to get full credit for each category.** 
 
-### Core Testing
-
-Since your core grade is directly related to how well each function is implemented, we **highly encourage** the use of test suites just like you've done for previous projects and assignments. 
-
 ## Reach
 
 Make sure you update your README.md file in your repository with what reach you chose and what functionalities you decided to implement. In the scenario that you implemented both reaches, we will only grade one! Ensure you specify which one you implemented in the README.md file. Note that, in the case of the AI reach, there is a total of 60 points up for grabs depending on how many times your AI wins. However, the total points that actually count towards your reach grade will not exceed 50.  
