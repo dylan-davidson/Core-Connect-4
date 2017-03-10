@@ -44,7 +44,7 @@ All team members should install the following software on their computer. Make s
 
 ## Project Setup for Core Testing
 
-We have included a sample test suite to help you test your board.cpp and connect4.cpp functions. 
+Since your core grade is directly related to how well each function is implemented, we **highly encourage** the use of a test suite just like you've done for previous projects and assignments. We have included a sample test suite to help you test your board.cpp functions. To setup your project for running the test suite, follow the same instructions as in the previous section [Project Setup for Core] except that instead of adding main.cpp to your project you will be test_board.cpp. 
 
 ## Project Setup for Graphics
 
