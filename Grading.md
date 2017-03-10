@@ -34,7 +34,9 @@ Remember that the team you submit your proposal with will be your finalized team
 
 ## Core
 
-Your Core grade will be determined by how well your function implementations adhere to the RME's specified in the distributed code. **The core is due 12/2 by 6:00 and excepted until 12/2 11:59pm** The following table shows a breakdown of the points based general functionality. 
+Your Core grade will be determined by how well your function implementations adhere to the RME's specified in the distributed code. Please note that your core grade will not be based on overall functionality but rather on successful implementation of RME's for each independent function in <code>board.cpp</code> and <code>connect4.cpp</code>.
+
+**The core is due 4/7 by 6:00 and excepted until 4/7 11:59pm** The following table shows a breakdown of the points based general functionality. 
 
 | Category | Description | Points |
 |----------------|---------------------------------------|----------|
@@ -49,7 +51,7 @@ Your Core grade will be determined by how well your function implementations adh
 
 ### Core Testing
 
-Add some text...
+Since your core grade is directly related to how well each function is implemented, we **highly encourage** the use of test suites just like you've done for previous projects and assignments. 
 
 ## Reach
 
