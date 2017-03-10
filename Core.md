@@ -5,7 +5,7 @@ The files included in this project are listed below.
 * **board.cpp**: Definitions of Board member functions. The two member functions <code>prettyPrintBoard</code> and <code>atLocation</code> are already defined for you. You will need to define the rest.
 * **connect4.h**: Declarations of functions to read a board from a file and to write a board to a file along with the function that facilitates playing via terminal (console). 
 * **connect4.cpp**: Definitions of the functions in connect4.h. You need to define all of these. The cout statements are included in the distribution code.
-* **main.cpp**: Definition of the main function. You will only have to update this function if you choose to implement a GUI reach. 
+* **main.cpp**: Definition of the main function. You will only have to update this function if you choose to implement the graphics reach for the project. 
 
 * **graphics.h**: Declarations of functions used for the graphics part of the project.
 * **graphics.cpp**: Partial definitions of functions in graphics.h and the main function that runs the interface. The graphics starter code gives a basic graphical interface that you can play the game through. See [Reach section](Reach) for more details on editing the existing functions to develop your own look and feel for your program.
