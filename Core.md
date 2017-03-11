@@ -171,10 +171,8 @@ Following the save, the program will print the board and the menu again and ask 
 
 **Illegal Moves**
 
-Any other user input, including a position off the game board or a column that is full, will result in an error message and the player must re-enter the move. The error message is:
+Any other user input will be either: a position off the game board or a column that is full. These will result in an error message and the player must re-enter the move. Thus, this means that you do **not** need to (and should not) check for bad user input, as the logic is fairly complex. The error message to print upon an illegal move is:
 <pre><code>ILLEGAL MOVE: Try again</code></pre>
-
-This means that you do **not** need to check for bad user input.
 
 **Game Over with a Win or Draw**
 
