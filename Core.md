@@ -247,7 +247,7 @@ col 1   2   3   4   5   6   7
 </code></pre>
 FEN string for above board: <code>2x4/7/7/7/7/7 o</code>
 
-To read this: The first row has "2x4" which is read as 2 spaces, then a 'x' token, then four spaces in that row.
+<i>To read this:</i> The first row has <code>2x4</code> which is read as 2 spaces, then a 'x' token, then four spaces in that row.
 
 <pre><code>
   +---+---+---+---+---+---+---+
@@ -267,7 +267,7 @@ col 1   2   3   4   5   6   7
 </code></pre>
 FEN string for above board: <code>2x1oo1/2x4/7/7/7/7 x</code>
 
-To read this: The first row has "2x1oo1" which is read as 2 spaces, an 'x' token, 1 space, an 'o' token, an 'o' token, then a final space. The leading '/' means that this ends the row, and the next row begins.
+<i>To read this:</i> The first row has <code>2x1oo1</code> which is read as 2 spaces, an 'x' token, 1 space, an 'o' token, an 'o' token, then a final space. The leading '/' means that this ends the row, and the next row begins.
 
 ## Details on: int piecesInDirection(int row, int col, int dRow, int dCol) const
 
