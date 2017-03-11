@@ -61,7 +61,7 @@ t = clock();</code></pre>
 5. After your calculations (but before you return from the function), calculate the difference in time and print it out as seconds:
 <pre><code>t = clock() - t;
 cout &lt;&lt; "Took " &lt;&lt; double(t) / CLOCKS_PER_SEC &lt;&lt; " seconds" &lt;&lt; endl;</code></pre>
-Make sure you **remove all print (cout) statements before handing in your implementation**. The final version of your function should not print anything. These examples are for your own use during implementation. They are not to be included in the final product.
+Make sure you **remove all print (cout) statements before turning in your implementation**. The final version of your function should not print anything. These examples are for your own use during implementation. They are not to be included in the final product.
 
 Here are some helpful hints to get your started:
 * Play the Core a handful of times with different people. Pay attention to what moves you and your opponent make and think about why those moves are chosen. Notice any patterns in behavior. Ask your opponent why they chose a move you don't understand.
