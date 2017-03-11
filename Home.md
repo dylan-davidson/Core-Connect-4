@@ -1,5 +1,5 @@
 ## Project Overview
-EECS 183. Fall 2016.
+EECS 183. Winter 2017.
 
 **Overview.** Create a working game of Connect 4! This two-player game involves two players alternately dropping colored tokens into a column of a 6x7 board. The first player to have 4 tokens of their respective color consecutively in a row, column, or diagonal wins!
 
