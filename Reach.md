@@ -80,4 +80,4 @@ Our easy AI implementation will select a random column to use as its move. This 
 
 ### Medium / Hard AI
 
-While we will not be announcing what our medium and hard AI implementation entail, you can rest assured that they are definitely flawed in certain areas. Our AI is not meant to be unbeatable; we are not out to "get you." Thus, instead of worrying about passing the test cases, it is suggested to focus on your AI and to solidify your AI's logic first.Beating our AI will come naturally once your AI is logically solidified!
+While we will not be announcing what our medium and hard AI implementation entail, you can rest assured that they are not perfect - our medium and hard AIs are not meant to be unbeatable, but they are meant to give you a challenge. Focus first on solidifying your AI logic, and then consider modifications that can improve it. One thing that is fun (but also challenging) about AI is that there is always more you can do!
