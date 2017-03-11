@@ -77,3 +77,7 @@ Here is the [grading rubric](Grading#artificial_intelligence) for AI
 ### Easy AI
 
 Our easy AI implementation will select a random column to use as its move. This is the AI included in the distribution code.
+
+### Medium / Hard AI
+
+While we will not be announcing what our medium and hard AI implementation entail, you can rest assured that they are definitely flawed in certain areas. Our AI is not meant to be unbeatable; we are not out to "get you." Thus, instead of worrying about passing the test cases, it is suggested to focus on your AI and to solidify your AI's logic first.Beating our AI will come naturally once your AI is logically solidified!
