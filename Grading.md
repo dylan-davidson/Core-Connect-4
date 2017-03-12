@@ -30,6 +30,8 @@ Submit your proposal (one per team) in PDF format by **3/26 at 6:00pm**. Submiss
 
 3. Click on Add Group Member on top right. Add the three other members of your team by typing their names or email addresses. Once everyone on your team is in the list, click Save. Everyone who has been added to the group on Gradescope will receive an email and will be able to access the submission, including the score and staff's comments after the proposal has been graded.
 
+4. Finally, have **ONE PERSON** on your team head over to [register.eecs183.org](http://register.eecs183.org) to sign your team up for a GitHub repository. Fill out all of the necessary information. For project, select "Connect4" from the drop-down menu. If you receive the message "Submission has been recorded! Thank You!", then you are done. **YOU SHOULD ONLY SUBMIT ONCE PER TEAM.** If you have some issues, the website will alert you of the fields that were incorrectly filled out. Correct any mistakes, and submit again. Continue until you see the message above. If you are having trouble with this form, post on Piazza to get help."
+
 Remember that the team you submit your proposal with will be your finalized team for the Final Project.
 
 ## Core
