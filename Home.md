@@ -25,6 +25,8 @@ See the [grading](Grading) page for further details.
 ### Staff Members
 The following staff members support the Connect 4 Project:
 
+* Chandana Neerukonda
+* Diana Gage
 * Erin Donahue
 * Héctor García
 * Jing Hu
