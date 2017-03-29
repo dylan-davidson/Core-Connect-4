@@ -15,6 +15,9 @@ All groups must submit a project proposal.
 
 The team that you submit your proposal with constitutes your team for the Final Project. There will be no revisions to these teams except in situations which merit staff intervention. You may not change your team once this document has been submitted.
 
+#### Names, Uniqnames, and Github Names
+Begin your proposal with each member of your team's full name, their uniqname, _and_ their Github name. Even if your team member's Github name is the exact same as your uniqname, do be _specific_ and clear in order to help avoid grading errors. If you want to be fun, pick a team name! However, this is not a requirement.
+
 #### Overall Project Description
 Your proposal must include a **brief** description (5 to 6 sentences) of what the program will do, and how users will interact with it. Think about how you would describe your program to a friend. You should describe the basic functionality of your program and what features you are planning for the reach.
 
