@@ -58,7 +58,8 @@ Since your core grade is directly related to how well each function is implement
 6. Open your Connect 4 project in Visual Studio and add **both graphics.cpp and graphics.h** into the project the same way the other starter files were added in the Core
 7. In main.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 8. On line 2, add `#include "graphics.h"`
-9. Have fun with the graphics reach!
+9. Replace line 8 with 'int main(int argc, char *argv[]) {'
+10. Have fun with the graphics reach!
 
 ### XCode
 
@@ -68,7 +69,8 @@ Since your core grade is directly related to how well each function is implement
 4. Add both "OpenGL.framework" and "GLUT.framework"
 5. In main.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 6. On line 2, add `#include "graphics.h"`
-7. Have fun with the graphics reach!
+7. Replace line 8 with 'int main(int argc, char *argv[]) {'
+8. Have fun with the graphics reach!
 
 ## Project Setup for AI Reach
 
