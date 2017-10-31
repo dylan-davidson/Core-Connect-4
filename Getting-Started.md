@@ -69,7 +69,7 @@ Since your core grade is directly related to how well each function is implement
 4. Add both "OpenGL.framework" and "GLUT.framework"
 5. In main.cpp, comment out line 21: `cout << "Under construction..." << endl;` and **uncomment** line 22: `graphicsPlay(argc, argv);`
 6. On line 2, add `#include "graphics.h"`
-7. Replace line 8 with 'int main(int argc, char *argv[]) {'
+7. Replace line 8 with `int main(int argc, char *argv[]) {`
 8. Have fun with the graphics reach!
 
 ## Project Setup for AI Reach
