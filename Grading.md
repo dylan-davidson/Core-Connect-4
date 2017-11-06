@@ -27,7 +27,7 @@ Your group should be meeting regularly. In your proposal, list when and where yo
 #### Submission
 Submit your proposal (one per team) in PDF format by **11/19 at 6:00pm**. Submissions are accepted until **11/19 at 11:59pm** under the **Proposal: Connect 4** assignment. To do so please follow these instructions:
 
-1. Head to [EECS 183 on Gradescope](https://gradescope.com/courses/4780), then choose Proposal: Connect 4 from the assignments list. Select Submit PDF and upload proposal.pdf.
+1. Head to [EECS 183 on Gradescope](https://gradescope.com/courses/12014), then choose Proposal: Connect 4 from the assignments list. Select Submit PDF and upload proposal.pdf.
 
 2. Once the PDF file has been uploaded, select pages corresponding to each part (i.e. question) of the proposal assignment. Click Save.
 
