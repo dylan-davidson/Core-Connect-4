@@ -1,5 +1,5 @@
 ## Project Overview
-EECS 183. Winter 2017.
+EECS 183. Fall 2017.
 
 **Overview.** Create a working game of Connect 4! This two-player game involves two players alternately dropping colored tokens into a column of a 6x7 board. The first player to have 4 tokens of their respective color consecutively in a row, column, or diagonal wins!
 
@@ -25,13 +25,14 @@ See the [grading](Grading) page for further details.
 ### Staff Members
 The following staff members support the Connect 4 Project:
 
-* Chandana Neerukonda
 * Diana Gage
 * Erin Donahue
 * Héctor García
-* Jing Hu
-* Joel Battsek
-* Kevin Lee
-* Leah Bar-On Simmons
+* Anna Schmidt
+* Amy Baer
+* Dania Abdulhamid
+* Michelle Sheng
+* Zhengxi Tan
+* Rana Makki
 
 To contact the whole team use: 183connect4@umich.edu
